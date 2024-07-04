@@ -1,0 +1,5713 @@
+@import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.pizzakapsayici {
+  width: 33vw;
+  height: 33vw;
+  position: absolute;
+  top: -50vw;
+  left: 33vw;
+  animation-name: soldangel1;
+  animation-duration: 1.7s;
+  animation-fill-mode: forwards;
+}
+@keyframes soldangel1 {
+  from {
+    top: -20vw;
+  }
+  to {
+    top: 35.0625vw;
+  }
+}
+.a0deg {
+  position: absolute;
+  width: 10.8375vw;
+  height: 15.1875vw;
+  z-index: 2;
+  pointer-events: none;
+}
+.a45deg {
+  position: absolute;
+  width: 15.3525vw;
+  height: 10.875vw;
+}
+.a90deg {
+  position: absolute;
+  width: 15.3075vw;
+  height: 10.8375vw;
+}
+.a135deg {
+  position: absolute;
+  width: 11.01vw;
+  height: 15.20625vw;
+}
+.a180deg {
+  position: absolute;
+  width: 10.8375vw;
+  height: 15.5625vw;
+}
+.a225deg {
+  position: absolute;
+  width: 15.3075vw;
+  height: 10.9125vw;
+}
+.a270deg {
+  position: absolute;
+  width: 15.1875vw;
+  height: 10.7625vw;
+}
+.a315deg {
+  position: absolute;
+  width: 10.86375vw;
+  height: 15.3075vw;
+}
+.garsonel {
+  position: absolute;
+  width: 100vw;
+  height: 50vw;
+  transform: rotateY(180deg);
+  transform: rotate(-90deg);
+  animation-name: yukardangel1;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  top: -80vw;
+  z-index: 1;
+}
+@keyframes yukardangel1 {
+  0% {
+    left: 20vw;
+    top: -80vw;
+  }
+  50% {
+    left: 20vw;
+    top: -7vw;
+    opacity: 90%;
+  }
+  75% {
+    opacity: 50%;
+  }
+  100% {
+    left: 20vw;
+    top: -70vw;
+    opacity: 0%;
+  }
+}
+.pizzakapsayiciarka {
+  width: 100%;
+  height: 50vw;
+}
+
+.b6 {
+  position: absolute;
+  left: 1.7vw;
+  top: 16.3vw;
+  width: 15.3075vw;
+  height: 10.9125vw;
+  z-index: 2;
+}
+.b7 {
+  position: absolute;
+  top: 5.9vw;
+  left: 1.7vw;
+  width: 15.1875vw;
+  height: 10.7625vw;
+  z-index: 2;
+}
+.b8 {
+  position: absolute;
+  left: 6vw;
+  top: 1.5vw;
+  width: 10.86375vw;
+  height: 15.3075vw;
+  z-index: 3;
+}
+
+.b1 {
+  width: 10.8375vw;
+  height: 15.1875vw;
+  position: absolute;
+  left: 16.6vw;
+  top: 1.5vw;
+  z-index: 3;
+  transition: 0.3s;
+}
+.b1kapsa {
+  width: 14vw;
+  height: 5.1875vw;
+  position: absolute;
+  left: 22.2vw;
+  top: -1.5vw;
+  z-index: 7;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.denemekapsa {
+  position: absolute;
+  left: 22.6vw;
+  top: -4vw;
+}
+.deneme {
+  animation-name: a0anim;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  width: 3vw;
+}
+.denemegeri {
+  animation-name: a0anim1;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  width: 3vw;
+}
+
+@keyframes a0anim {
+  0% {
+    left: 16.6vw;
+    top: 1.5vw;
+  }
+  100% {
+    left: 17.6vw;
+    top: -1vw;
+  }
+}
+@keyframes a0anim1 {
+  0% {
+    left: 17.6vw;
+    top: -1vw;
+  }
+  100% {
+    left: 16.6vw;
+    top: 1.5vw;
+  }
+}
+
+.b2 {
+  position: absolute;
+  width: 2.3525vw;
+  height: 10.875vw;
+  left: 16.5vw;
+  top: 5.8vw;
+  z-index: 2;
+}
+
+.b2kapsa {
+  width: 14.3vw;
+  height: 7vw;
+  position: absolute;
+  left: 30vw;
+  top: 8.2vw;
+  z-index: 7;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.deneme2kapsa {
+  position: absolute;
+  left: 33vw;
+  top: 7vw;
+}
+.deneme2 {
+  animation-name: a45anim;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  width: 3vw;
+}
+.deneme2geri {
+  animation-name: a45anim1;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  width: 3vw;
+}
+
+@keyframes a45anim {
+  0% {
+    left: 16.5vw;
+    top: 5.8vw;
+  }
+  100% {
+    left: 19.6vw;
+    top: 4.5vw;
+  }
+}
+@keyframes a45anim1 {
+  0% {
+    left: 19.6vw;
+    top: 4.5vw;
+  }
+  100% {
+    left: 16.5vw;
+    top: 5.8vw;
+  }
+}
+
+.b3 {
+  position: absolute;
+  width: 15.3075vw;
+  height: 10.8375vw;
+  left: 16.55vw;
+  top: 16.3vw;
+  z-index: 2;
+}
+
+.b3kapsa {
+  width: 14.3vw;
+  height: 7vw;
+  position: absolute;
+  left: 30vw;
+  top: 18.7vw;
+  z-index: 7;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.deneme3kapsa {
+  position: absolute;
+  left: 33vw;
+  top: 20vw;
+}
+.deneme3 {
+  animation-name: a90anim;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  width: 3vw;
+}
+.deneme3geri {
+  animation-name: a90anim1;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  width: 3vw;
+}
+
+.b4 {
+  position: absolute;
+  left: 16.6vw;
+  top: 16.3vw;
+  width: 11.01vw;
+  height: 15.20625vw;
+  z-index: 2;
+}
+
+.b4kapsa {
+  width: 14.3vw;
+  height: 7vw;
+  position: absolute;
+  left: 21vw;
+  top: 28.7vw;
+  z-index: 7;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.deneme4kapsa {
+  position: absolute;
+  left: 22vw;
+  top: 30.4vw;
+}
+.deneme4 {
+  animation-name: a135anim;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  width: 3vw;
+}
+.deneme4geri {
+  animation-name: a135anim1;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  width: 3vw;
+}
+
+.b5 {
+  position: absolute;
+  width: 3.8375vw;
+  height: 15.5625vw;
+  left: 6.1vw;
+  top: 16vw;
+  z-index: 2;
+}
+
+.b5kapsa {
+  width: 17vw;
+  height: 7vw;
+  position: absolute;
+  left: -5.7vw;
+  top: 29vw;
+  z-index: 7;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.deneme5kapsa {
+  position: absolute;
+  left: -5.7vw;
+  top: 30svw;
+}
+.deneme5 {
+  animation-name: a180anim;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  width: 3vw;
+}
+.deneme5geri {
+  animation-name: a180anim1;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  width: 3vw;
+}
+
+.b6kapsa {
+  width: 17vw;
+  height: 7vw;
+  position: absolute;
+  left: -13.7vw;
+  top: 19.3vw;
+  z-index: 7;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.deneme6kapsa {
+  position: absolute;
+  left: -13.7vw;
+  top: 20vw;
+}
+.deneme6 {
+  animation-name: a225anim;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  width: 3vw;
+}
+.deneme6geri {
+  animation-name: a225anim1;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  width: 3vw;
+}
+
+.b7kapsa {
+  width: 13.7vw;
+  height: 5vw;
+  position: absolute;
+  left: -10vw;
+  top: 9.3vw;
+  z-index: 7;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.deneme7kapsa {
+  position: absolute;
+  left: -12vw;
+  top: 8vw;
+}
+.deneme7 {
+  animation-name: a270anim;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  width: 3vw;
+}
+.deneme7geri {
+  animation-name: a270anim1;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  width: 3vw;
+}
+
+.b8kapsa {
+  width: 15.7vw;
+  height: 5vw;
+  position: absolute;
+  left: -3.6vw;
+  top: -1.2vw;
+  z-index: 7;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.deneme8kapsa {
+  position: absolute;
+  left: -3.6vw;
+  top: -2.8vw;
+}
+.deneme8 {
+  animation-name: a315anim;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  width: 3vw;
+}
+.deneme8geri {
+  animation-name: a315anim1;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  width: 3vw;
+}
+@keyframes a90anim {
+  0% {
+    left: 16.55vw;
+    top: 16.3vw;
+  }
+  100% {
+    left: 19.65vw;
+    top: 17.6vw;
+  }
+}
+@keyframes a135anim {
+  0% {
+    left: 16.6vw;
+    top: 16.3vw;
+  }
+  100% {
+    left: 17.8vw;
+    top: 18.9vw;
+  }
+}
+@keyframes a180anim {
+  0% {
+    left: 6.1vw;
+    top: 16vw;
+  }
+  100% {
+    left: 5vw;
+    top: 18.6vw;
+  }
+}
+@keyframes a225anim {
+  0% {
+    left: 1.7vw;
+    top: 16.3vw;
+  }
+  100% {
+    left: -1vw;
+    top: 17.4vw;
+  }
+}
+@keyframes a270anim {
+  0% {
+    top: 5.9vw;
+    left: 1.7vw;
+  }
+  100% {
+    left: -1vw;
+    top: 4.6svw;
+  }
+}
+@keyframes a315anim {
+  0% {
+    left: 6vw;
+    top: 1.5vw;
+  }
+  100% {
+    left: 5vw;
+    top: -1vw;
+  }
+}
+
+@keyframes a90anim1 {
+  0% {
+    left: 19.65vw;
+    top: 17.6vw;
+  }
+  100% {
+    left: 16.55vw;
+    top: 16.3vw;
+  }
+}
+@keyframes a135anim1 {
+  0% {
+    left: 17.8vw;
+    top: 18.9vw;
+  }
+  100% {
+    left: 16.6vw;
+    top: 16.3vw;
+  }
+}
+@keyframes a180anim1 {
+  0% {
+    left: 5vw;
+    top: 18.6vw;
+  }
+  100% {
+    left: 6.1vw;
+    top: 16vw;
+  }
+}
+@keyframes a225anim1 {
+  0% {
+    left: -1vw;
+    top: 17.4vw;
+  }
+  100% {
+    left: 1.7vw;
+    top: 16.3vw;
+  }
+}
+@keyframes a270anim1 {
+  0% {
+    left: -1vw;
+    top: 4.6svw;
+  }
+  100% {
+    top: 5.9vw;
+    left: 1.7vw;
+  }
+}
+@keyframes a315anim1 {
+  0% {
+    left: 5vw;
+    top: -1vw;
+  }
+  100% {
+    left: 6vw;
+    top: 1.5vw;
+  }
+}
+
+.fixer1 {
+  position: absolute;
+  width: 30.2vw;
+  height: 30.2vw;
+  z-index: 5;
+  left: 34.71vw;
+  top: 36.5vw;
+  border-radius: 100%;
+}
+.fixer2 {
+  position: absolute;
+  z-index: 5;
+  width: 27vw;
+  height: 27vw;
+  left: 36.3vw;
+  top: 37.9vw;
+  border-radius: 100%;
+}
+
+.b1 h3 {
+  position: absolute;
+  background: white;
+  top: 3vw;
+  left: -4vw;
+  padding: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-family: "Raleway";
+  animation-name: peyda1;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-delay: 1.6s;
+  z-index: -5;
+  visibility: hidden;
+  transition: 0.5s;
+  color: #000000;
+}
+
+@keyframes peyda1 {
+  from {
+    visibility: hidden;
+    font-size: 0.2vw;
+    left: -4vw;
+    top: 3vw;
+  }
+  to {
+    visibility: visible;
+    font-size: 2vw;
+    top: -2.6vw;
+    left: 6vw;
+  }
+}
+.b2 h3 {
+  position: absolute;
+  background: white;
+  padding: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-family: "Raleway";
+  animation-name: peyda2;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-delay: 1.8s;
+  z-index: -5;
+  top: 4vw;
+  visibility: hidden;
+  transition: 0.5s;
+  color: #000000;
+}
+@keyframes peyda2 {
+  from {
+    visibility: hidden;
+    padding: 0;
+    font-size: 0.1vw;
+    left: -4vw;
+    top: 7vw;
+  }
+  to {
+    visibility: visible;
+    padding: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 2vw;
+    top: 2.6vw;
+    left: 13.6vw;
+  }
+}
+.b3 h3 {
+  position: absolute;
+  background: white;
+  font-size: 2vw;
+  padding: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-family: "Raleway";
+  animation-name: peyda3;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  z-index: -5;
+  left: -2vw;
+  visibility: hidden;
+  transition: 0.5s;
+  color: #000000;
+}
+@keyframes peyda3 {
+  from {
+    visibility: hidden;
+    font-size: 0.2vw;
+    left: -4vw;
+    top: 3vw;
+  }
+  to {
+    visibility: visible;
+    font-size: 2vw;
+    left: 13.6vw;
+    top: 2.6vw;
+  }
+}
+.b4 h3 {
+  position: absolute;
+  background: white;
+  padding: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-family: "Raleway";
+  animation-name: peyda4;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-delay: 2.2s;
+  z-index: -5;
+  top: 6vw;
+  left: -8vw;
+  visibility: hidden;
+  transition: 0.5s;
+  color: #000000;
+}
+@keyframes peyda4 {
+  from {
+    visibility: hidden;
+    transform: rotate(-90deg);
+    font-size: 0.2vw;
+    left: -4vw;
+    top: 3vw;
+  }
+  to {
+    visibility: visible;
+    transform: rotate(0deg);
+    font-size: 2vw;
+    top: 12.6vw;
+    left: 4.6vw;
+  }
+}
+.b5 h3 {
+  position: absolute;
+  padding: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-family: "Raleway";
+  animation-name: peyda5;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-delay: 2.4s;
+  z-index: -5;
+  visibility: hidden;
+  transition: 0.5s;
+  color: #000000;
+  text-align: center;
+  width: 10vw;
+  background: white;
+}
+@keyframes peyda5 {
+  from {
+    visibility: hidden;
+    font-size: 0.2vw;
+    left: -4vw;
+    top: 3vw;
+  }
+  to {
+    visibility: visible;
+    font-size: 2vw;
+    top: 13vw;
+    left: -10vw;
+  }
+}
+.b6 h3 {
+  position: absolute;
+  background: white;
+  padding: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-family: "Raleway";
+  animation-name: peyda6;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-delay: 2.6s;
+  z-index: -5;
+  visibility: hidden;
+  transition: 0.5s;
+  color: #000000;
+}
+@keyframes peyda6 {
+  from {
+    visibility: hidden;
+    font-size: 0.2vw;
+    left: -4vw;
+    top: 3vw;
+  }
+  to {
+    visibility: visible;
+    font-size: 2vw;
+    top: 4.6vw;
+    left: -15.2vw;
+  }
+}
+.b7 h3 {
+  transition: 0.5s;
+  position: absolute;
+  background: white;
+  padding: 1vw;
+  left: 5vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-family: "Raleway";
+  animation-name: peyda7;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-delay: 2.8s;
+  z-index: -5;
+  visibility: hidden;
+  color: #000000;
+}
+@keyframes peyda7 {
+  from {
+    visibility: hidden;
+    font-size: 0.2vw;
+    left: -4vw;
+    top: 3vw;
+  }
+  to {
+    visibility: visible;
+    font-size: 2vw;
+    top: 3.5vw;
+    left: -11.4vw;
+  }
+}
+.b8 h3 {
+  position: absolute;
+  background: white;
+  padding: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-family: "Raleway";
+  transition: 0.2s;
+  animation-name: peyda8;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+  z-index: -5;
+  transform: rotate(-90deg);
+  top: 5vw;
+  left: 4vw;
+  visibility: hidden;
+  color: #000000;
+}
+@keyframes peyda8 {
+  from {
+    visibility: hidden;
+    font-size: 0.2vw;
+    left: -4vw;
+    top: 3vw;
+  }
+  to {
+    visibility: visible;
+    transform: rotate(0deg);
+    font-size: 2vw;
+    top: -2.5vw;
+    left: -9vw;
+  }
+}
+.videopizza {
+  display: none;
+  position: absolute;
+  width: 3.252604166666668vw;
+  opacity: 0%;
+  transition: 0.3s;
+  padding-bottom: 1vw;
+  border-bottom: 0.2vw solid black;
+}
+.videotavuk {
+  display: none;
+  position: absolute;
+  width: 15.6015625vw;
+  opacity: 0%;
+  transition: 0.3s;
+  padding-bottom: 1vw;
+  border-bottom: 0.2vw solid black;
+}
+.etvideo {
+  display: none;
+  position: absolute;
+  opacity: 0%;
+  transition: 0.3s;
+  padding-bottom: 1vw;
+  border-bottom: 0.2vw solid black;
+  width: 3.7916vw;
+  left: 45vw;
+  top: -11vw;
+}
+.balikvideo {
+  display: none;
+  width: 5.436197916666666vw;
+  top: 12.6vw;
+  left: 4.6vw;
+  position: absolute;
+  opacity: 0%;
+  transition: 0.3s;
+  padding-bottom: 1vw;
+  border-bottom: 0.2vw solid black;
+}
+.veganvideo {
+  display: none;
+  width: 6.436197916666666vw;
+  top: 8.6vw;
+  left: -5.6vw;
+  position: absolute;
+  opacity: 0%;
+  transition: 0.3s;
+  padding-bottom: 1vw;
+  border-bottom: 0.2vw solid black;
+}
+.spesialvideo {
+  display: none;
+  width: 6.436197916666666vw;
+  top: 4.6vw;
+  left: -9.6vw;
+  position: absolute;
+  opacity: 0%;
+  transition: 0.3s;
+  padding-bottom: 1vw;
+  border-bottom: 0.2vw solid black;
+}
+.tatlivideo {
+  display: none;
+  width: 6.436197916666666vw;
+  top: 1.6vw;
+  left: -12.6vw;
+  position: absolute;
+  opacity: 0%;
+  transition: 0.3s;
+  padding-bottom: 1vw;
+  border-bottom: 0.2vw solid black;
+}
+
+.icecekvideo {
+  display: none;
+  width: 6.436197916666666vw;
+  top: -1vw;
+  left: -10.6vw;
+  position: absolute;
+  opacity: 0%;
+  transition: 0.3s;
+  padding-bottom: 1vw;
+  border-bottom: 0.2vw solid black;
+}
+.tahta {
+  display: cover;
+  width: 100%;
+  z-index: 1;
+}
+.despizza {
+  position: absolute;
+  font-size: 1.8vw;
+  left: 28vw;
+  font-family: "Raleway";
+  border-left: 0.1vw solid rgb(255, 255, 255);
+  border-bottom: 0.1vw solid rgb(255, 255, 255);
+  background: rgb(91, 0, 195);
+  opacity: 0%;
+  transition: 0.5s;
+  transition-delay: 0.01s;
+  overflow: hidden;
+  padding: 1vw;
+  color: rgb(255, 255, 255);
+}
+.destavuk {
+  position: absolute;
+  font-size: 1.8vw;
+  left: 17vw;
+  font-family: "Raleway";
+  border-left: 0.1vw solid rgb(255, 255, 255);
+  border-bottom: 0.1vw solid rgb(255, 255, 255);
+  width: 0.01vw;
+  height: 0.01vw;
+  top: -17vw;
+  background: rgb(255, 162, 0);
+  opacity: 0%;
+  transition: 0.5s;
+  transition-delay: 0.01s;
+  overflow: hidden;
+  padding: 1vw;
+  color: rgb(255, 255, 255);
+}
+
+.deset {
+  position: absolute;
+  font-size: 1.8vw;
+  left: 28vw;
+  font-family: "Raleway";
+  border-left: 0.1vw solid rgb(255, 255, 255);
+  border-bottom: 0.1vw solid rgb(255, 255, 255);
+  width: 0.01vw;
+  height: 0.01vw;
+  top: 5vw;
+  background: rgb(226, 0, 0);
+  opacity: 0%;
+  transition: 0.5s;
+  transition-delay: 0.01s;
+  overflow: hidden;
+  padding: 1vw;
+  color: rgb(255, 255, 255);
+}
+
+.desbalik {
+  position: absolute;
+  font-size: 1.8vw;
+  left: 28vw;
+  font-family: "Raleway";
+  border-left: 0.1vw solid rgb(255, 255, 255);
+  border-bottom: 0.1vw solid rgb(255, 255, 255);
+  width: 0.01vw;
+  height: 0.01vw;
+  top: 5vw;
+  background: rgb(0, 179, 195);
+  opacity: 0%;
+  transition: 0.5s;
+  transition-delay: 0.01s;
+  overflow: hidden;
+  padding: 1vw;
+  color: rgb(255, 255, 255);
+}
+.desvegan {
+  position: absolute;
+  font-size: 1.8vw;
+  left: -33vw;
+  font-family: "Raleway";
+  border-left: 0.1vw solid rgb(255, 255, 255);
+  border-bottom: 0.1vw solid rgb(255, 255, 255);
+  width: 0.01vw;
+  height: 0.01vw;
+  top: -27vw;
+  background: rgb(14, 169, 0);
+  opacity: 0%;
+  transition: 0.5s;
+  transition-delay: 0.01s;
+  overflow: hidden;
+  padding: 1vw;
+  color: rgb(255, 255, 255);
+}
+.desspesial {
+  position: absolute;
+  font-size: 1.8vw;
+  left: -28vw;
+  font-family: "Raleway";
+  border-left: 0.1vw solid rgb(255, 255, 255);
+  border-bottom: 0.1vw solid rgb(255, 255, 255);
+  width: 0.01vw;
+  height: 0.01vw;
+  top: -23vw;
+  background: rgb(0, 0, 0);
+  opacity: 0%;
+  transition: 0.5s;
+  transition-delay: 0.01s;
+  overflow: hidden;
+  padding: 1vw;
+  color: rgb(255, 255, 255);
+}
+
+.destatli {
+  position: absolute;
+  font-size: 1.8vw;
+  left: -30vw;
+  font-family: "Raleway";
+  border-left: 0.1vw solid rgb(255, 255, 255);
+  border-bottom: 0.1vw solid rgb(255, 255, 255);
+  width: 0.01vw;
+  height: 0.01vw;
+  top: 5vw;
+  background: rgb(195, 0, 114);
+  opacity: 0%;
+  transition: 0.5s;
+  transition-delay: 0.01s;
+  overflow: hidden;
+  padding: 1vw;
+  color: rgb(255, 255, 255);
+}
+
+.desicecek {
+  position: absolute;
+  font-size: 1.8vw;
+  left: -36vw;
+  font-family: "Raleway";
+  border-left: 0.1vw solid rgb(255, 255, 255);
+  border-bottom: 0.1vw solid rgb(255, 255, 255);
+  width: 0.01vw;
+  height: 0.01vw;
+  top: 9vw;
+  background: rgb(0, 68, 195);
+  opacity: 0%;
+  transition: 0.5s;
+  transition-delay: 0.01s;
+  overflow: hidden;
+  padding: 1vw;
+  color: rgb(255, 255, 255);
+}
+html {
+  scroll-behavior: smooth;
+}
+#ustbolum {
+  height: min-content;
+  overflow: hidden;
+}
+.pizzaust {
+  height: 30vw;
+  overflow: hidden;
+  width: 100%;
+}
+.pizzalogo {
+  left: -5vw;
+  top: 32.6vw;
+  width: 10vw;
+  height: 10vw;
+  position: absolute;
+  border-radius: 100%;
+  padding: 5vw;
+  border: 0.4vw solid rgb(255, 255, 255);
+  background: rgb(91, 0, 195);
+  transition: 0.3s;
+}
+.baslikpizza {
+  position: absolute;
+  font-family: "Raleway";
+  top: 37vw;
+  left: 32.8vw;
+  font-size: 5vw;
+  background-color: rgba(0, 0, 0, 0.729);
+  color: white;
+  width: 60vw;
+  text-align: center;
+  padding: 3vw;
+  padding-bottom: 7.5vw;
+}
+.pizzabuton:hover .pizzalogo {
+  width: 15vw;
+  height: 15vw;
+  padding: 7vw;
+  top: 27.9vw;
+}
+.pizzaustarkaplan {
+  position: relative;
+  width: 100%;
+  opacity: 50%;
+  bottom: 20vw;
+}
+.baslikyazi {
+  color: white;
+  font-size: 2vw;
+  position: absolute;
+  top: 48vw;
+  left: 36vw;
+  font-family: "Raleway";
+  width: 60vw;
+  text-align: center;
+}
+.pizzacizgi {
+  width: 100%;
+  height: 1.5vw;
+  background: rgb(46, 0, 99);
+}
+.pizzaorta {
+  width: 100%;
+  height: 100vw;
+  overflow: hidden;
+}
+.menu {
+  width: 100%;
+  position: relative;
+  bottom: 40vw;
+}
+.pizzah1 {
+  font-family: "Dancing Script";
+  color: black;
+  font-size: 4vw;
+  position: absolute;
+  top: 80vw;
+  left: 37vw;
+  border-bottom: black solid 0.3vw;
+}
+.pizzah2 {
+  font-family: "Dancing Script";
+  color: black;
+  font-size: 2.5vw;
+  position: absolute;
+  top: 86vw;
+  left: 25vw;
+  border-bottom: black solid 0.3vw;
+}
+.pizzah3 {
+  font-family: "Dancing Script";
+  color: black;
+  font-size: 2.5vw;
+  position: absolute;
+  top: 87vw;
+  left: 55vw;
+  border-bottom: black solid 0.3vw;
+}
+.pizzah4 {
+  font-family: "Dancing Script";
+  color: black;
+  font-size: 2.5vw;
+  position: absolute;
+  top: 87vw;
+  left: 65vw;
+  border-bottom: black solid 0.3vw;
+}
+.pizzaresim1 {
+  width: 12vw;
+  height: 8.5vw;
+  border-radius: 0.4vw;
+  transition: 0.3s;
+}
+.pizzaurun1:hover .pizzaresim1 {
+  width: 15vw;
+  height: 11vw;
+  top: 92vw;
+  left: 20.3vw;
+}
+.pizzaurun1 {
+  width: 12vw;
+  height: 8.5vw;
+  position: absolute;
+  top: 93vw;
+  left: 21.3vw;
+  border-radius: 0.4vw;
+  box-shadow: 0.2vw 0.2vw 0.2vw rgba(0, 0, 0, 0.358);
+  transition: 0.3s;
+  overflow: hidden;
+}
+.pizzaurun1:hover {
+  width: 15vw;
+  height: 11vw;
+  top: 92vw;
+  left: 20.3vw;
+}
+.pizzaul1 {
+  list-style-type: none;
+  font-family: "Raleway";
+  font-size: 1.2vw;
+  position: absolute;
+  color: black;
+  top: 95vw;
+  left: 51vw;
+  font-weight: 900;
+  border-left: 0.15vw solid black;
+}
+.pizzaul1 li {
+  margin-bottom: 0.4vw;
+  margin-left: 0.4vw;
+}
+.pizzaul2 {
+  list-style-type: none;
+  font-family: "Raleway";
+  font-size: 1.2vw;
+  position: absolute;
+  color: black;
+  top: 95vw;
+  left: 65vw;
+  font-weight: 900;
+  border-left: 0.15vw solid black;
+}
+.pizzaul2 li {
+  margin-bottom: 0.4vw;
+  margin-left: 0.4vw;
+}
+.despizzaurun1 {
+  position: absolute;
+  background: rgba(0, 255, 0, 0.66);
+  width: 12vw;
+  height: 8.5vw;
+  top: 0.01vw;
+  border-radius: 0.4vw;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 8.5vw;
+  font-family: "Raleway";
+  font-weight: 900;
+  left: 12vw;
+  transition: 0.3s;
+  color: white;
+  font-size: 1.3vw;
+  cursor: context-menu;
+}
+.pizzaurun1:hover .despizzaurun1 {
+  width: 15vw;
+  height: 11vw;
+  left: 0;
+  line-height: 11vw;
+  font-weight: 900;
+}
+.pizzaurun1:active {
+  width: 12vw;
+  height: 8.5vw;
+  top: 93vw;
+  left: 21.3vw;
+}
+.pizzaurun1:active .despizzaurun1 {
+  width: 12vw;
+  height: 8.5vw;
+  left: 0;
+  line-height: 8.5vw;
+  font-weight: 900;
+  background: rgba(235, 81, 81, 0.741);
+}
+.pizzaurun1:active .pizzaresim1 {
+  width: 12vw;
+  height: 8.5vw;
+  top: 93vw;
+  left: 21.3vw;
+}
+.pizzaisim1 {
+  position: absolute;
+  top: 97vw;
+  left: 37vw;
+  font-size: 1.4vw;
+  font-family: "Raleway";
+  font-weight: 900;
+}
+.pizzaresim2 {
+  width: 12vw;
+  height: 8.5vw;
+  border-radius: 0.4vw;
+  transition: 0.3s;
+}
+.pizzaurun2:hover .pizzaresim2 {
+  width: 15vw;
+  height: 11vw;
+  top: 92vw;
+  left: 20.3vw;
+}
+.pizzaurun2 {
+  width: 12vw;
+  height: 8.5vw;
+  position: absolute;
+  top: 103vw;
+  left: 21.3vw;
+  border-radius: 0.4vw;
+  box-shadow: 0.2vw 0.2vw 0.2vw rgba(0, 0, 0, 0.358);
+  transition: 0.3s;
+  overflow: hidden;
+}
+.pizzaurun2:hover {
+  width: 15vw;
+  height: 11vw;
+  top: 102vw;
+  left: 20.3vw;
+}
+.pizzaul3 {
+  list-style-type: none;
+  font-family: "Raleway";
+  font-size: 1.2vw;
+  position: absolute;
+  color: black;
+  top: 105vw;
+  left: 51vw;
+  font-weight: 900;
+  border-left: 0.15vw solid black;
+}
+.pizzaul3 li {
+  margin-bottom: 0.4vw;
+  margin-left: 0.4vw;
+}
+.pizzaul4 {
+  list-style-type: none;
+  font-family: "Raleway";
+  font-size: 1.2vw;
+  position: absolute;
+  color: black;
+  top: 105vw;
+  left: 65vw;
+  font-weight: 900;
+  border-left: 0.15vw solid black;
+}
+.pizzaul4 li {
+  margin-bottom: 0.4vw;
+  margin-left: 0.4vw;
+}
+.despizzaurun2 {
+  position: absolute;
+  background: rgba(0, 255, 0, 0.66);
+  width: 12vw;
+  height: 8.5vw;
+  top: 0.01vw;
+  border-radius: 0.4vw;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 8.5vw;
+  font-family: "Raleway";
+  font-weight: 900;
+  left: 12vw;
+  transition: 0.3s;
+  color: white;
+  font-size: 1.3vw;
+  cursor: context-menu;
+}
+.pizzaurun2:hover .despizzaurun2 {
+  width: 15vw;
+  height: 11vw;
+  left: 0;
+  line-height: 11vw;
+  font-weight: 900;
+}
+.pizzaurun2:active {
+  width: 12vw;
+  height: 8.5vw;
+  top: 103vw;
+  left: 21.3vw;
+}
+.pizzaurun2:active .despizzaurun2 {
+  width: 12vw;
+  height: 8.5vw;
+  left: 0;
+  line-height: 8.5vw;
+  font-weight: 900;
+  background: rgba(235, 81, 81, 0.741);
+}
+.pizzaurun2:active .pizzaresim2 {
+  width: 12vw;
+  height: 8.5vw;
+  top: 103vw;
+  left: 21.3vw;
+}
+.pizzaisim2 {
+  position: absolute;
+  top: 107vw;
+  left: 37vw;
+  font-size: 1.4vw;
+  font-family: "Raleway";
+  font-weight: 900;
+}
+.pizzaresim3 {
+  width: 12vw;
+  height: 8.5vw;
+  border-radius: 0.4vw;
+  transition: 0.3s;
+}
+.pizzaurun3:hover .pizzaresim3 {
+  width: 15vw;
+  height: 11vw;
+  top: 102vw;
+  left: 20.3vw;
+}
+.pizzaurun3 {
+  width: 12vw;
+  height: 8.5vw;
+  position: absolute;
+  top: 113vw;
+  left: 21.3vw;
+  border-radius: 0.4vw;
+  box-shadow: 0.2vw 0.2vw 0.2vw rgba(0, 0, 0, 0.358);
+  transition: 0.3s;
+  overflow: hidden;
+}
+.pizzaurun3:hover {
+  width: 15vw;
+  height: 11vw;
+  top: 112vw;
+  left: 20.3vw;
+}
+.pizzaul5 {
+  list-style-type: none;
+  font-family: "Raleway";
+  font-size: 1.2vw;
+  position: absolute;
+  color: black;
+  top: 115vw;
+  left: 51vw;
+  font-weight: 900;
+  border-left: 0.15vw solid black;
+}
+.pizzaul5 li {
+  margin-bottom: 0.4vw;
+  margin-left: 0.4vw;
+}
+.pizzaul6 {
+  list-style-type: none;
+  font-family: "Raleway";
+  font-size: 1.2vw;
+  position: absolute;
+  color: black;
+  top: 115vw;
+  left: 65vw;
+  font-weight: 900;
+  border-left: 0.15vw solid black;
+}
+.pizzaul6 li {
+  margin-bottom: 0.4vw;
+  margin-left: 0.4vw;
+}
+.despizzaurun3 {
+  position: absolute;
+  background: rgba(0, 255, 0, 0.66);
+  width: 12vw;
+  height: 8.5vw;
+  top: 0.01vw;
+  border-radius: 0.4vw;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 8.5vw;
+  font-family: "Raleway";
+  font-weight: 900;
+  left: 12vw;
+  transition: 0.3s;
+  color: white;
+  font-size: 1.3vw;
+  cursor: context-menu;
+}
+.pizzaurun3:hover .despizzaurun3 {
+  width: 15vw;
+  height: 11vw;
+  left: 0;
+  line-height: 11vw;
+  font-weight: 900;
+}
+.pizzaurun3:active {
+  width: 12vw;
+  height: 8.5vw;
+  top: 113vw;
+  left: 21.3vw;
+}
+.pizzaurun3:active .despizzaurun3 {
+  width: 12vw;
+  height: 8.5vw;
+  left: 0;
+  line-height: 8.5vw;
+  font-weight: 900;
+  background: rgba(235, 81, 81, 0.741);
+}
+.pizzaurun3:active .pizzaresim3 {
+  width: 12vw;
+  height: 8.5vw;
+  top: 113vw;
+  left: 21.3vw;
+}
+.pizzaisim3 {
+  position: absolute;
+  top: 117vw;
+  left: 37vw;
+  font-size: 1.4vw;
+  font-family: "Raleway";
+  font-weight: 900;
+}
+.pizzaresim4 {
+  width: 12vw;
+  height: 8.5vw;
+  border-radius: 0.4vw;
+  transition: 0.3s;
+}
+.pizzaurun4:hover .pizzaresim4 {
+  width: 15vw;
+  height: 11vw;
+  top: 112vw;
+  left: 20.3vw;
+}
+.pizzaurun4 {
+  width: 12vw;
+  height: 8.5vw;
+  position: absolute;
+  top: 123vw;
+  left: 21.3vw;
+  border-radius: 0.4vw;
+  box-shadow: 0.2vw 0.2vw 0.2vw rgba(0, 0, 0, 0.358);
+  transition: 0.3s;
+  overflow: hidden;
+}
+.pizzaurun4:hover {
+  width: 15vw;
+  height: 11vw;
+  top: 122vw;
+  left: 20.3vw;
+}
+.pizzaul7 {
+  list-style-type: none;
+  font-family: "Raleway";
+  font-size: 1.2vw;
+  position: absolute;
+  color: black;
+  top: 125vw;
+  left: 51vw;
+  font-weight: 900;
+  border-left: 0.15vw solid black;
+}
+.pizzaul7 li {
+  margin-bottom: 0.4vw;
+  margin-left: 0.4vw;
+}
+.pizzaul8 {
+  list-style-type: none;
+  font-family: "Raleway";
+  font-size: 1.2vw;
+  position: absolute;
+  color: black;
+  top: 125vw;
+  left: 65vw;
+  font-weight: 900;
+  border-left: 0.15vw solid black;
+}
+.pizzaul8 li {
+  margin-bottom: 0.4vw;
+  margin-left: 0.4vw;
+}
+.despizzaurun4 {
+  position: absolute;
+  background: rgba(0, 255, 0, 0.66);
+  width: 12vw;
+  height: 8.5vw;
+  top: 0.01vw;
+  border-radius: 0.4vw;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 8.5vw;
+  font-family: "Raleway";
+  font-weight: 900;
+  left: 12vw;
+  transition: 0.3s;
+  color: white;
+  font-size: 1.3vw;
+  cursor: context-menu;
+}
+.pizzaurun4:hover .despizzaurun4 {
+  width: 15vw;
+  height: 11vw;
+  left: 0;
+  line-height: 11vw;
+  font-weight: 900;
+}
+.pizzaurun4:active {
+  width: 12vw;
+  height: 8.5vw;
+  top: 123vw;
+  left: 21.3vw;
+}
+.pizzaurun4:active .despizzaurun4 {
+  width: 12vw;
+  height: 8.5vw;
+  left: 0;
+  line-height: 8.5vw;
+  font-weight: 900;
+  background: rgba(235, 81, 81, 0.741);
+}
+.pizzaurun4:active .pizzaresim4 {
+  width: 12vw;
+  height: 8.5vw;
+  top: 123vw;
+  left: 21.3vw;
+}
+.pizzaisim4 {
+  position: absolute;
+  top: 127vw;
+  left: 37vw;
+  font-size: 1.4vw;
+  font-family: "Raleway";
+  font-weight: 900;
+}
+.pizzaresim5 {
+  width: 12vw;
+  height: 8.5vw;
+  border-radius: 0.4vw;
+  transition: 0.3s;
+}
+.pizzaurun5:hover .pizzaresim5 {
+  width: 15vw;
+  height: 11vw;
+  top: 122vw;
+  left: 20.3vw;
+}
+.pizzaurun5 {
+  width: 12vw;
+  height: 8.5vw;
+  position: absolute;
+  top: 133vw;
+  left: 21.3vw;
+  border-radius: 0.4vw;
+  box-shadow: 0.2vw 0.2vw 0.2vw rgba(0, 0, 0, 0.358);
+  transition: 0.3s;
+  overflow: hidden;
+}
+.pizzaurun5:hover {
+  width: 15vw;
+  height: 11vw;
+  top: 132vw;
+  left: 20.3vw;
+}
+.pizzaul9 {
+  list-style-type: none;
+  font-family: "Raleway";
+  font-size: 1.2vw;
+  position: absolute;
+  color: black;
+  top: 135vw;
+  left: 51vw;
+  font-weight: 900;
+  border-left: 0.15vw solid black;
+}
+.pizzaul9 li {
+  margin-bottom: 0.4vw;
+  margin-left: 0.4vw;
+}
+.pizzaul10 {
+  list-style-type: none;
+  font-family: "Raleway";
+  font-size: 1.2vw;
+  position: absolute;
+  color: black;
+  top: 135vw;
+  left: 65vw;
+  font-weight: 900;
+  border-left: 0.15vw solid black;
+}
+.pizzaul10 li {
+  margin-bottom: 0.4vw;
+  margin-left: 0.4vw;
+}
+.despizzaurun5 {
+  position: absolute;
+  background: rgba(0, 255, 0, 0.66);
+  width: 12vw;
+  height: 8.5vw;
+  top: 0.01vw;
+  border-radius: 0.4vw;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 8.5vw;
+  font-family: "Raleway";
+  font-weight: 900;
+  left: 12vw;
+  transition: 0.3s;
+  color: white;
+  font-size: 1.3vw;
+  cursor: context-menu;
+}
+.pizzaurun5:hover .despizzaurun5 {
+  width: 15vw;
+  height: 11vw;
+  left: 0;
+  line-height: 11vw;
+  font-weight: 900;
+}
+.pizzaurun5:active {
+  width: 12vw;
+  height: 8.5vw;
+  top: 133vw;
+  left: 21.3vw;
+}
+.pizzaurun5:active .despizzaurun5 {
+  width: 12vw;
+  height: 8.5vw;
+  left: 0;
+  line-height: 8.5vw;
+  font-weight: 900;
+  background: rgba(235, 81, 81, 0.741);
+}
+.pizzaurun5:active .pizzaresim5 {
+  width: 12vw;
+  height: 8.5vw;
+  top: 133vw;
+  left: 21.3vw;
+}
+.pizzaisim5 {
+  position: absolute;
+  top: 137vw;
+  left: 37vw;
+  font-size: 1.4vw;
+  font-family: "Raleway";
+  font-weight: 900;
+}
+.aracizim {
+  width: 100%;
+}
+.tavukbolumu {
+  width: 100%;
+  height: min-content;
+}
+.cizimyazi1 {
+  font-family: "Raleway";
+  font-size: 3.5vw;
+  background: rgba(0, 0, 0, 0.497);
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 30vw;
+  top: 160.6vw;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30vw;
+  opacity: 0%;
+  transition: 0.3s;
+  font-weight: 900;
+}
+.calismakistermisiniz1 {
+  width: 100%;
+}
+.calismakistermisiniz1:hover .cizimyazi1 {
+  opacity: 100%;
+}
+.tavukbolumu {
+  width: 100%;
+  height: min-content;
+  overflow: hidden;
+}
+.tavukust {
+  height: 30vw;
+  width: 100%;
+  overflow: hidden;
+}
+.tavuklogo {
+  left: -5vw;
+  top: 33vw;
+  width: 10vw;
+  height: 10vw;
+  position: absolute;
+  border-radius: 100%;
+  padding: 5vw;
+  border: 0.4vw solid rgb(255, 255, 255);
+  background: rgb(255, 162, 0);
+  transition: 0.3s;
+}
+.tavukbuton:hover .tavuklogo {
+  width: 15vw;
+  height: 15vw;
+  padding: 7vw;
+  top: 27.9vw;
+}
+.tavukustarkaplan {
+  position: relative;
+  width: 100%;
+  opacity: 50%;
+  bottom: 20vw;
+}
+.tavukcizgi {
+  width: 100%;
+  height: 1.4vw;
+  background: rgb(208, 132, 0);
+}
+#etbolumu {
+  width: 100%;
+  height: min-content;
+  overflow: hidden;
+}
+.etust {
+  height: 30vw;
+  width: 100%;
+  overflow: hidden;
+}
+.etlogo {
+  left: -5vw;
+  top: 33vw;
+  width: 10vw;
+  height: 10vw;
+  position: absolute;
+  border-radius: 100%;
+  padding: 5vw;
+  border: 0.4vw solid rgb(255, 255, 255);
+  background: rgb(226, 0, 0);
+  transition: 0.3s;
+}
+.etbuton:hover .etlogo {
+  width: 15vw;
+  height: 15vw;
+  padding: 7vw;
+  top: 27.9vw;
+}
+.etustarkaplan {
+  position: relative;
+  width: 100%;
+  opacity: 50%;
+  bottom: 20vw;
+}
+.etcizgi {
+  width: 100%;
+  height: 1.4vw;
+  background: rgb(226, 0, 0);
+}
+#balikbolumu {
+  width: 100%;
+  height: min-content;
+  overflow: hidden;
+}
+.balikust {
+  height: 30vw;
+  width: 100%;
+  overflow: hidden;
+}
+.baliklogo {
+  left: -5vw;
+  top: 33vw;
+  width: 10vw;
+  height: 10vw;
+  position: absolute;
+  border-radius: 100%;
+  padding: 5vw;
+  border: 0.4vw solid rgb(255, 255, 255);
+  background: rgb(0, 179, 195);
+  transition: 0.3s;
+}
+.balikbuton:hover .baliklogo {
+  width: 15vw;
+  height: 15vw;
+  padding: 7vw;
+  top: 27.9vw;
+}
+.balikustarkaplan {
+  position: relative;
+  width: 100%;
+  opacity: 65%;
+  bottom: 13vw;
+}
+.balikcizgi {
+  width: 100%;
+  height: 1.4vw;
+  background: rgb(0, 179, 195);
+}
+#veganbolumu {
+  width: 100%;
+  height: min-content;
+  overflow: hidden;
+}
+.veganust {
+  height: 30vw;
+  width: 100%;
+  overflow: hidden;
+}
+.veganustarkaplan {
+  position: relative;
+  width: 100%;
+  opacity: 50%;
+  bottom: 20vw;
+}
+.vegancizgi {
+  width: 100%;
+  height: 1.4vw;
+  background: rgb(14, 169, 0);
+}
+#spessiyalbolumu {
+  width: 100%;
+  height: min-content;
+  overflow: hidden;
+}
+.spessiyalust {
+  height: 30vw;
+  width: 100%;
+  overflow: hidden;
+}
+.spessiyalustarkaplan {
+  position: relative;
+  width: 100%;
+  opacity: 65%;
+  bottom: 18vw;
+}
+.spessiyalcizgi {
+  width: 100%;
+  height: 1.4vw;
+  background: rgb(0, 0, 0);
+}
+#tatlibolumu {
+  width: 100%;
+  height: min-content;
+  overflow: hidden;
+}
+.tatliust {
+  height: 30vw;
+  width: 100%;
+  overflow: hidden;
+}
+.tatlilogo {
+  left: -5vw;
+  top: 33vw;
+  width: 10vw;
+  height: 10vw;
+  position: absolute;
+  border-radius: 100%;
+  padding: 5vw;
+  border: 0.4vw solid rgb(255, 255, 255);
+  background: rgb(195, 0, 114);
+  transition: 0.3s;
+}
+.tatlibuton:hover .tatlilogo {
+  width: 15vw;
+  height: 15vw;
+  padding: 7vw;
+  top: 27.9vw;
+}
+.tatliustarkaplan {
+  position: relative;
+  width: 100%;
+  opacity: 50%;
+  bottom: 11.5vw;
+}
+.tatlicizgi {
+  width: 100%;
+  height: 1.4vw;
+  background: rgb(195, 0, 114);
+}
+.tatlih2 {
+  font-family: "Dancing Script";
+  font-size: 2.5vw;
+  position: absolute;
+  top: 88vw;
+  left: 25vw;
+  color: black;
+  border-bottom: black solid 0.3vw;
+}
+.tatlih3 {
+  font-family: "Dancing Script";
+  font-size: 2.5vw;
+  position: absolute;
+  top: 88vw;
+  left: 37vw;
+  color: black;
+  border-bottom: black solid 0.3vw;
+}
+.tatlih4 {
+  font-family: "Dancing Script";
+  font-size: 2.5vw;
+  position: absolute;
+  top: 88vw;
+  left: 51vw;
+  color: black;
+  border-bottom: black solid 0.3vw;
+}
+.tatlih5 {
+  font-family: "Dancing Script";
+  font-size: 2.5vw;
+  position: absolute;
+  top: 88vw;
+  left: 63vw;
+  color: black;
+  border-bottom: black solid 0.3vw;
+}
+.tatliresim6 {
+  width: 12vw;
+  height: 8.5vw;
+  border-radius: 0.4vw;
+  transition: 0.3s;
+}
+.tatliurun6:hover .tatliresim6 {
+  width: 15vw;
+  height: 11vw;
+  top: 1133vw;
+  left: 46.3vw;
+}
+.tatliurun6 {
+  width: 12vw;
+  height: 8.5vw;
+  position: absolute;
+  top: 93vw;
+  left: 47.3vw;
+  border-radius: 0.4vw;
+  box-shadow: 0.2vw 0.2vw 0.2vw rgba(0, 0, 0, 0.358);
+  transition: 0.3s;
+  overflow: hidden;
+}
+.tatliurun6:hover {
+  width: 15vw;
+  height: 11vw;
+  top: 93vw;
+  left: 46.3vw;
+}
+.destatliurun6 {
+  position: absolute;
+  background: rgba(0, 255, 0, 0.66);
+  width: 12vw;
+  height: 8.5vw;
+  top: 0.01vw;
+  border-radius: 0.4vw;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 8.5vw;
+  font-family: "Raleway";
+  font-weight: 900;
+  left: 12vw;
+  transition: 0.3s;
+  color: white;
+  font-size: 1.3vw;
+}
+.tatliurun6:hover .destatliurun6 {
+  width: 15vw;
+  height: 11vw;
+  left: 0;
+  line-height: 11vw;
+  font-weight: 900;
+}
+.tatliurun6:active {
+  width: 12vw;
+  height: 8.5vw;
+  top: 93vw;
+  left: 47.3vw;
+}
+.tatliurun6:active .destatliurun6 {
+  width: 12vw;
+  height: 8.5vw;
+  left: 0;
+  line-height: 8.5vw;
+  font-weight: 900;
+  background: rgba(235, 81, 81, 0.741);
+}
+.tatliurun6:active .tatliresim6 {
+  width: 12vw;
+  height: 8.5vw;
+  top: 93vw;
+  left: 47.3vw;
+}
+.tatliresim7 {
+  width: 12vw;
+  height: 8.5vw;
+  border-radius: 0.4vw;
+  transition: 0.3s;
+}
+.tatliurun7:hover .tatliresim7 {
+  width: 15vw;
+  height: 11vw;
+  top: 103vw;
+  left: 46.3vw;
+}
+.tatliurun7 {
+  width: 12vw;
+  height: 8.5vw;
+  position: absolute;
+  top: 103vw;
+  left: 47.3vw;
+  border-radius: 0.4vw;
+  box-shadow: 0.2vw 0.2vw 0.2vw rgba(0, 0, 0, 0.358);
+  transition: 0.3s;
+  overflow: hidden;
+}
+.tatliurun7:hover {
+  width: 15vw;
+  height: 11vw;
+  top: 103vw;
+  left: 46.3vw;
+}
+.destatliurun7 {
+  position: absolute;
+  background: rgba(0, 255, 0, 0.66);
+  width: 12vw;
+  height: 8.5vw;
+  top: 0.01vw;
+  border-radius: 0.4vw;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 8.5vw;
+  font-family: "Raleway";
+  font-weight: 900;
+  left: 12vw;
+  transition: 0.3s;
+  color: white;
+  font-size: 1.3vw;
+}
+.tatliurun7:hover .destatliurun7 {
+  width: 15vw;
+  height: 11vw;
+  left: 0;
+  line-height: 11vw;
+  font-weight: 900;
+}
+.tatliurun7:active {
+  width: 12vw;
+  height: 8.5vw;
+  top: 103vw;
+  left: 47.3vw;
+}
+.tatliurun7:active .destatliurun7 {
+  width: 12vw;
+  height: 8.5vw;
+  left: 0;
+  line-height: 8.5vw;
+  font-weight: 900;
+  background: rgba(235, 81, 81, 0.741);
+}
+.tatliurun7:active .tatliresim7 {
+  width: 12vw;
+  height: 8.5vw;
+  top: 103vw;
+  left: 47.3vw;
+}
+.tatliresim8 {
+  width: 12vw;
+  height: 8.5vw;
+  border-radius: 0.4vw;
+  transition: 0.3s;
+}
+.tatliurun8:hover .tatliresim8 {
+  width: 15vw;
+  height: 11vw;
+  top: 113vw;
+  left: 46.3vw;
+}
+.tatliurun8 {
+  width: 12vw;
+  height: 8.5vw;
+  position: absolute;
+  top: 113vw;
+  left: 47.3vw;
+  border-radius: 0.4vw;
+  box-shadow: 0.2vw 0.2vw 0.2vw rgba(0, 0, 0, 0.358);
+  transition: 0.3s;
+  overflow: hidden;
+}
+.tatliurun8:hover {
+  width: 15vw;
+  height: 11vw;
+  top: 113vw;
+  left: 46.3vw;
+}
+.destatliurun8 {
+  position: absolute;
+  background: rgba(0, 255, 0, 0.66);
+  width: 12vw;
+  height: 8.5vw;
+  top: 0.01vw;
+  border-radius: 0.4vw;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 8.5vw;
+  font-family: "Raleway";
+  font-weight: 900;
+  left: 12vw;
+  transition: 0.3s;
+  color: white;
+  font-size: 1.3vw;
+}
+.tatliurun8:hover .destatliurun8 {
+  width: 15vw;
+  height: 11vw;
+  left: 0;
+  line-height: 11vw;
+  font-weight: 900;
+}
+.tatliurun8:active {
+  width: 12vw;
+  height: 8.5vw;
+  top: 113vw;
+  left: 47.3vw;
+}
+.tatliurun8:active .destatliurun8 {
+  width: 12vw;
+  height: 8.5vw;
+  left: 0;
+  line-height: 8.5vw;
+  font-weight: 900;
+  background: rgba(235, 81, 81, 0.741);
+}
+.tatliurun8:active .tatliresim8 {
+  width: 12vw;
+  height: 8.5vw;
+  top: 113vw;
+  left: 47.3vw;
+}
+.tatliresim9 {
+  width: 12vw;
+  height: 8.5vw;
+  border-radius: 0.4vw;
+  transition: 0.3s;
+}
+.tatliurun9:hover .tatliresim9 {
+  width: 15vw;
+  height: 11vw;
+  top: 123vw;
+  left: 46.3vw;
+}
+.tatliurun9 {
+  width: 12vw;
+  height: 8.5vw;
+  position: absolute;
+  top: 123vw;
+  left: 47.3vw;
+  border-radius: 0.4vw;
+  box-shadow: 0.2vw 0.2vw 0.2vw rgba(0, 0, 0, 0.358);
+  transition: 0.3s;
+  overflow: hidden;
+}
+.tatliurun9:hover {
+  width: 15vw;
+  height: 11vw;
+  top: 123vw;
+  left: 46.3vw;
+}
+.destatliurun9 {
+  position: absolute;
+  background: rgba(0, 255, 0, 0.66);
+  width: 12vw;
+  height: 8.5vw;
+  top: 0.01vw;
+  border-radius: 0.4vw;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 8.5vw;
+  font-family: "Raleway";
+  font-weight: 900;
+  left: 12vw;
+  transition: 0.3s;
+  color: white;
+  font-size: 1.3vw;
+}
+.tatliurun9:hover .destatliurun9 {
+  width: 15vw;
+  height: 11vw;
+  left: 0;
+  line-height: 11vw;
+  font-weight: 900;
+}
+.tatliurun9:active {
+  width: 12vw;
+  height: 8.5vw;
+  top: 123vw;
+  left: 47.3vw;
+}
+.tatliurun9:active .destatliurun9 {
+  width: 12vw;
+  height: 8.5vw;
+  left: 0;
+  line-height: 8.5vw;
+  font-weight: 900;
+  background: rgba(235, 81, 81, 0.741);
+}
+.tatliurun9:active .tatliresim9 {
+  width: 12vw;
+  height: 8.5vw;
+  top: 123vw;
+  left: 47.3vw;
+}
+.tatliresim10 {
+  width: 12vw;
+  height: 8.5vw;
+  border-radius: 0.4vw;
+  transition: 0.3s;
+}
+.tatliurun10:hover .tatliresim10 {
+  width: 15vw;
+  height: 11vw;
+  top: 133vw;
+  left: 46.3vw;
+}
+.tatliurun10 {
+  width: 12vw;
+  height: 8.5vw;
+  position: absolute;
+  top: 133vw;
+  left: 47.3vw;
+  border-radius: 0.4vw;
+  box-shadow: 0.2vw 0.2vw 0.2vw rgba(0, 0, 0, 0.358);
+  transition: 0.3s;
+  overflow: hidden;
+}
+.tatliurun10:hover {
+  width: 15vw;
+  height: 11vw;
+  top: 133vw;
+  left: 46.3vw;
+}
+.destatliurun10 {
+  position: absolute;
+  background: rgba(0, 255, 0, 0.66);
+  width: 12vw;
+  height: 8.5vw;
+  top: 0.01vw;
+  border-radius: 0.4vw;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 8.5vw;
+  font-family: "Raleway";
+  font-weight: 900;
+  left: 12vw;
+  transition: 0.3s;
+  color: white;
+  font-size: 1.3vw;
+}
+.tatliurun10:hover .destatliurun10 {
+  width: 15vw;
+  height: 11vw;
+  left: 0;
+  line-height: 11vw;
+  font-weight: 900;
+}
+.tatliurun10:active {
+  width: 12vw;
+  height: 8.5vw;
+  top: 133vw;
+  left: 47.3vw;
+}
+.tatliurun10:active .destatliurun10 {
+  width: 12vw;
+  height: 8.5vw;
+  left: 0;
+  line-height: 8.5vw;
+  font-weight: 900;
+  background: rgba(235, 81, 81, 0.741);
+}
+.tatliurun10:active .tatliresim10 {
+  width: 12vw;
+  height: 8.5vw;
+  top: 1174vw;
+  left: 47.3vw;
+}
+.tatlifiyat1 {
+  font-family: "Raleway";
+  font-family: 1.5vw;
+  position: absolute;
+  top: 96.5vw;
+  left: 36vw;
+  font-weight: 900;
+  font-size: 1vw;
+}
+.tatlifiyat2 {
+  font-family: "Raleway";
+  font-family: 1.5vw;
+  position: absolute;
+  top: 106.5vw;
+  left: 36vw;
+  font-weight: 900;
+  font-size: 1vw;
+}
+.tatlifiyat3 {
+  font-family: "Raleway";
+  font-family: 1.5vw;
+  position: absolute;
+  top: 116.5vw;
+  left: 36vw;
+  font-weight: 900;
+  font-size: 1vw;
+}
+.tatlifiyat4 {
+  font-family: "Raleway";
+  font-family: 1.5vw;
+  position: absolute;
+  top: 126.5vw;
+  left: 36vw;
+  font-weight: 900;
+  font-size: 1vw;
+}
+.tatlifiyat5 {
+  font-family: "Raleway";
+  font-family: 1.5vw;
+  position: absolute;
+  top: 136.5vw;
+  left: 36vw;
+  font-weight: 900;
+  font-size: 1vw;
+}
+.tatlifiyat6 {
+  font-family: "Raleway";
+  position: absolute;
+  top: 96.5vw;
+  left: 64vw;
+  font-weight: 900;
+  font-size: 1vw;
+}
+.tatlifiyat7 {
+  font-family: "Raleway";
+  position: absolute;
+  top: 106.5vw;
+  left: 64vw;
+  font-weight: 900;
+  font-size: 1vw;
+}
+.tatlifiyat8 {
+  font-family: "Raleway";
+  position: absolute;
+  top: 116.5vw;
+  left: 62.8vw;
+  font-weight: 900;
+  font-size: 1vw;
+}
+.tatlifiyat9 {
+  font-family: "Raleway";
+  position: absolute;
+  top: 126.5vw;
+  left: 64vw;
+  font-weight: 900;
+  font-size: 1vw;
+}
+.tatlifiyat10 {
+  font-family: "Raleway";
+  position: absolute;
+  top: 136.5vw;
+  left: 64vw;
+  font-weight: 900;
+  font-size: 1vw;
+}
+.cizimyazi7 {
+  font-family: "Raleway";
+  font-size: 3.5vw;
+  background: rgba(0, 0, 0, 0.497);
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 31vw;
+  top: 1205.2vw;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30vw;
+  opacity: 0%;
+  transition: 0.3s;
+  font-weight: 900;
+}
+.calismakistermisiniz7:hover .cizimyazi7 {
+  opacity: 100%;
+}
+#icecekbolumu {
+  width: 100%;
+  height: min-content;
+  overflow: hidden;
+}
+.icecekust {
+  height: 30vw;
+  width: 100%;
+  overflow: hidden;
+}
+.iceceklogo {
+  left: -5vw;
+  top: 33vw;
+  width: 10vw;
+  height: 10vw;
+  position: absolute;
+  border-radius: 100%;
+  padding: 5vw;
+  border: 0.4vw solid rgb(255, 255, 255);
+  background: rgb(0, 68, 195);
+  transition: 0.3s;
+}
+#icecekbolumu .baslikicecek {
+  position: absolute;
+  font-family: "Raleway";
+  top: 1246vw;
+  left: 32.8vw;
+  font-size: 5vw;
+  background-color: rgba(0, 0, 0, 0.729);
+  color: white;
+  width: 60vw;
+  text-align: center;
+  padding: 3vw;
+  padding-bottom: 7.5vw;
+}
+.icecekbuton:hover .iceceklogo {
+  width: 15vw;
+  height: 15vw;
+  padding: 7vw;
+  top: 27.9vw;
+}
+.icecekustarkaplan {
+  position: relative;
+  width: 100%;
+  opacity: 50%;
+  bottom: 11.5vw;
+}
+.icecekcizgi {
+  width: 100%;
+  height: 1.4vw;
+  background: rgb(0, 68, 195);
+}
+.indexnav {
+  width: 100%;
+  height: 34vw;
+  background: rgb(255, 255, 255);
+}
+.pizzanav {
+  width: 100%;
+  height: min-content;
+}
+.navanimlogo {
+  width: 15vw;
+  height: 15vw;
+  background-color: rgb(200, 200, 200);
+  border-radius: 100%;
+  position: absolute;
+  border: #9dbad8 0.35vw solid;
+  left: 41.3vw;
+  top: 7vw;
+  transition: 0.3s;
+  overflow: hidden;
+}
+.navbeyazlogo {
+  width: 17.3vw;
+  height: 17.3vw;
+  position: relative;
+  left: -1vw;
+  top: -1.1vw;
+}
+.navanimlogo:hover {
+  box-shadow: 0.5vw 0.5vw 0.5vw black;
+}
+.navbgvarea {
+  width: 100%;
+  height: 24vw;
+  background: white;
+  overflow: hidden;
+}
+.navbgv {
+  width: 100%;
+  position: relative;
+  border: none;
+  bottom: 5vw;
+}
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: min-content;
+  height: min-content;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 67vw;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  background: white;
+  height: 20vw;
+  left: -13vw;
+  z-index: 500;
+}
+.nava1 {
+  text-decoration: none;
+  position: relative;
+  left: -19.9vw;
+  font-size: 2vw;
+  font-family: "Raleway";
+  font-weight: 900;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  padding: 20vw;
+}
+.nava2 {
+  padding: 10vw;
+  font-weight: 900;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  text-decoration: none;
+  position: relative;
+  left: -7.1vw;
+  font-size: 2vw;
+  font-family: "Raleway";
+}
+.nava3 {
+  padding: 10vw;
+  font-weight: 900;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  text-decoration: none;
+  position: relative;
+  left: -5.5vw;
+  font-size: 2vw;
+  font-family: "Raleway";
+}
+.nava4 {
+  padding: 20vw;
+  font-weight: 900;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  text-decoration: none;
+  position: relative;
+  left: -10.6vw;
+  font-size: 2vw;
+  font-family: "Raleway";
+}
+.nava5 {
+  padding: 20vw;
+  font-weight: 900;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  text-decoration: none;
+  position: relative;
+  left: -18.4vw;
+  top: 1vw;
+  font-size: 2vw;
+  font-family: "Raleway";
+}
+.nava6 {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  left: -4.8vw;
+  font-size: 2vw;
+  font-family: "Raleway";
+  top: 28%;
+  padding: 10vw;
+  font-weight: 900;
+  background: rgba(0, 0, 0, 0.4);
+}
+.nava7 {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  left: -3.4vw;
+  font-size: 2vw;
+  font-family: "Raleway";
+  top: 26%;
+  padding: 10vw;
+  font-weight: 900;
+  background: rgba(0, 0, 0, 0.4);
+}
+.nava8 {
+  text-decoration: none;
+  position: relative;
+  left: -3.4vw;
+  font-size: 2vw;
+  font-family: "Raleway";
+  top: 26%;
+  padding: 10vw;
+  font-weight: 900;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+.navadiv1 {
+  width: 11vw;
+  height: 17vw;
+  background: transparent;
+  border: 0.1vw solid black;
+  position: absolute;
+  left: 1vw;
+  top: 1.4vw;
+  overflow: hidden;
+  background: url(gorselicerik/mantarlıdomatessoslupizza.jpg);
+  background-size: 20vw;
+  background-position: 0.01vw;
+}
+.navadiv2 {
+  width: 11vw;
+  height: 9.4vw;
+  background: transparent;
+  border: 0.1vw solid black;
+  position: absolute;
+  left: 13vw;
+  top: 1.4vw;
+  overflow: hidden;
+  background: url(gorselicerik/citirtavuk.jpg);
+  background-size: 18vw;
+  background-position: 15vw;
+}
+.navadiv3 {
+  width: 11vw;
+  height: 9.4vw;
+  background: transparent;
+  border: 0.1vw solid black;
+  position: absolute;
+  left: 25vw;
+  top: 1.4vw;
+  overflow: hidden;
+  background: url(gorselicerik/koftemenu.jpg);
+  background-size: 20vw;
+  background-position: 0.01vw;
+}
+.navadiv4 {
+  width: 23vw;
+  height: 6.4vw;
+  background: transparent;
+  border: 0.1vw solid black;
+  position: absolute;
+  left: 13vw;
+  top: 12vw;
+  overflow: hidden;
+  background: url(gorselicerik/palamutmenu.jpg);
+  background-size: 25vw;
+  background-position: 23.5vw;
+}
+.navadiv5 {
+  width: 9vw;
+  height: 17vw;
+  background: transparent;
+  border: 0.1vw solid black;
+  position: absolute;
+  left: 37vw;
+  top: 1.4vw;
+  overflow: hidden;
+  background: url(gorselicerik/veganogun.jpg);
+  background-size: 30vw;
+  background-position: 15vw;
+}
+.navadiv6 {
+  width: 18.8vw;
+  height: 5.1vw;
+  background: transparent;
+  border-bottom: 0.1vw solid black;
+  border-top: 0.1vw solid black;
+  position: absolute;
+  left: 47vw;
+  top: 1.4vw;
+  overflow: hidden;
+  background: url(gorselicerik/spessiyalmenu1.jpg);
+  background-size: 20vw;
+  background-position: 0.01vw;
+}
+.navadiv7 {
+  width: 18.8vw;
+  height: 5.1vw;
+  background: transparent;
+  border-bottom: 0.1vw solid black;
+  border-top: 0.1vw solid black;
+  position: absolute;
+  left: 47vw;
+  top: 7.4vw;
+  overflow: hidden;
+  background: url(gorselicerik/sufle.jpg);
+  background-size: 20vw;
+  background-position: 0.01vw;
+}
+.navadiv8 {
+  width: 18.8vw;
+  height: 5.1vw;
+  background: transparent;
+  border-bottom: 0.1vw solid black;
+  border-top: 0.1vw solid black;
+  position: absolute;
+  left: 47vw;
+  top: 13.3vw;
+  overflow: hidden;
+  background: url(gorselicerik/kola.jpg);
+  background-size: 20vw;
+  background-position: 0.01vw;
+}
+.dropdown-content .navadiv1:hover .nava1 {
+  background-color: rgb(91, 0, 195);
+  color: white;
+  font-weight: 900;
+}
+.dropdown-content .navadiv2:hover .nava2 {
+  background-color: rgb(255, 162, 0);
+  color: white;
+  font-weight: 900;
+}
+.dropdown-content .navadiv3:hover .nava3 {
+  background-color: rgb(226, 0, 0);
+  color: white;
+  font-weight: 900;
+}
+.dropdown-content .navadiv4:hover .nava4 {
+  background-color: rgb(0, 179, 195);
+  color: white;
+  font-weight: 900;
+}
+.dropdown-content .navadiv5:hover .nava5 {
+  background-color: rgb(14, 169, 0);
+  color: white;
+  font-weight: 900;
+}
+.dropdown-content .navadiv6:hover .nava6 {
+  background-color: #000000;
+  color: white;
+  font-weight: 900;
+}
+.dropdown-content .navadiv7:hover .nava7 {
+  background-color: rgb(195, 0, 114);
+  color: white;
+  font-weight: 900;
+}
+.dropdown-content .navadiv8:hover .nava8 {
+  background-color: rgb(0, 68, 195);
+  color: white;
+  font-weight: 900;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.tavuknavul {
+  width: 100%;
+  height: min-content;
+  position: sticky;
+  background: #9dbad8;
+  justify-content: space-between;
+  top: 0.2vw;
+  z-index: +9;
+}
+.tavuknavul ul li:hover {
+  background: #73889e;
+}
+.tavuknavul ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  background: transparent;
+  position: relative;
+  top: 20%;
+  justify-content: space-between;
+}
+.tavuknavul .nava {
+  font-family: "Raleway";
+  text-decoration: none;
+  color: #f05f33;
+  font-weight: 900;
+  font-size: 1.5vw;
+  padding-left: 1.4vw;
+  padding-right: 1.4vw;
+  border-right: 0.1vw solid #f05f33;
+  border-left: 0.1vw solid #f05f33;
+  transition: 0.3s;
+}
+.tavuknavul ul li:hover .nava {
+  color: white;
+  border-right: 0.1vw solid #ffffff;
+  border-left: 0.1vw solid #ffffff;
+}
+.tavuknavul ul li {
+  align-items: center;
+  padding-right: 2vw;
+  padding-left: 2vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  transition: 0.3s;
+}
+.nava1-1 {
+  color: white;
+  font-size: 1vw;
+  font-family: "Raleway";
+  font-weight: 900;
+  text-decoration: none;
+  position: relative;
+  top: 3vw;
+}
+.nava1-2 {
+  color: white;
+  font-size: 1vw;
+  font-family: "Raleway";
+  font-weight: 900;
+  text-decoration: none;
+  position: relative;
+  top: 3.6vw;
+}
+.nava1-3 {
+  color: white;
+  font-size: 1vw;
+  font-family: "Raleway";
+  font-weight: 900;
+  text-decoration: none;
+  position: relative;
+  top: 3.9vw;
+}
+.nava1-4 {
+  color: white;
+  font-size: 1vw;
+  font-family: "Raleway";
+  font-weight: 900;
+  text-decoration: none;
+  position: relative;
+  top: 4.2vw;
+}
+.nava1-5 {
+  color: white;
+  font-size: 1vw;
+  font-family: "Raleway";
+  font-weight: 900;
+  text-decoration: none;
+  position: relative;
+  top: 4.5vw;
+  left: 0vw;
+}
+.nava2-1 {
+  color: white;
+  font-size: 1vw;
+  font-family: "Raleway";
+  font-weight: 900;
+  text-decoration: none;
+  position: relative;
+  top: 1.3vw;
+}
+.nava2-2 {
+  color: white;
+  font-size: 1vw;
+  font-family: "Raleway";
+  font-weight: 900;
+  text-decoration: none;
+  position: relative;
+  top: 1.6vw;
+}
+.nava2-3 {
+  color: white;
+  font-size: 1vw;
+  font-family: "Raleway";
+  font-weight: 900;
+  text-decoration: none;
+  position: relative;
+  top: 1.9vw;
+}
+.dropdown-content span {
+  visibility: hidden;
+}
+.nava3-1 {
+  color: white;
+  font-size: 1vw;
+  font-family: "Raleway";
+  font-weight: 900;
+  text-decoration: none;
+  position: relative;
+  top: 1.3vw;
+}
+.nava3-2 {
+  color: white;
+  font-size: 1vw;
+  font-family: "Raleway";
+  font-weight: 900;
+  text-decoration: none;
+  position: relative;
+  top: 1.6vw;
+}
+.nava3-3 {
+  color: white;
+  font-size: 1vw;
+  font-family: "Raleway";
+  font-weight: 900;
+  text-decoration: none;
+  position: relative;
+  top: 1.9vw;
+}
+.nava4-1 {
+  color: white;
+  font-size: 1vw;
+  font-family: "Raleway";
+  font-weight: 900;
+  text-decoration: none;
+  position: relative;
+  top: 1.3vw;
+  left: 4vw;
+}
+.nava4-2 {
+  color: white;
+  font-size: 1vw;
+  font-family: "Raleway";
+  font-weight: 900;
+  text-decoration: none;
+  position: relative;
+  top: 1.3vw;
+  left: 6vw;
+}
+.nava5-1 {
+  color: white;
+  font-size: 1vw;
+  font-family: "Raleway";
+  font-weight: 900;
+  text-decoration: none;
+  position: relative;
+  top: 3.5vw;
+}
+.nava5-2 {
+  color: white;
+  font-size: 1vw;
+  font-family: "Raleway";
+  font-weight: 900;
+  text-decoration: none;
+  position: relative;
+  top: 4vw;
+}
+.nava5-3 {
+  color: white;
+  font-size: 1vw;
+  font-family: "Raleway";
+  font-weight: 900;
+  text-decoration: none;
+  position: relative;
+  top: 4.5vw;
+}
+.turkiyem {
+  width: 100%;
+  height: 50vw;
+  background: #758290;
+  position: relative;
+  overflow: hidden;
+}
+.turkiyemfoto {
+  width: 70%;
+  position: absolute;
+  left: -5vw;
+  top: 11vw;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  background: rgba(0, 0, 0, 0.347);
+}
+.subelerustyazi p {
+  font-family: "Caveat";
+  text-align: center;
+  font-size: 3vw;
+  font-weight: 500;
+  vertical-align: middle;
+  line-height: 10vw;
+}
+.subelerustyazi {
+  width: 100%;
+  height: 10vw;
+}
+.subelerharitabgv {
+  width: 100%;
+  z-index: -1;
+  opacity: 0.7;
+}
+.subealfalogo {
+  width: 3vw;
+  height: 3vw;
+  position: absolute;
+  top: 14.4vw;
+  left: 26.2vw;
+  transition: 0.3s;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-bottom: 2.4vw;
+  padding-top: 2vw;
+}
+.subealfaul {
+  position: absolute;
+  left: 11.4vw;
+  width: 17vw;
+  height: 10.3vw;
+  background: whitesmoke;
+  top: 19vw;
+  visibility: hidden;
+  border-radius: 0.6vw;
+  z-index: 2;
+  border: 0.3vw solid black;
+}
+.subealfaul li {
+  list-style: none;
+}
+.subealfayazi {
+  position: relative;
+  font-family: "Raleway";
+  font-size: 1vw;
+  font-weight: 900;
+  top: 1.5vw;
+  left: 1vw;
+}
+.spanalfa {
+  color: red;
+}
+.subealfabuton {
+  position: relative;
+  left: 5.8vw;
+  padding-left: 0.7vw;
+  padding-right: 0.7vw;
+  padding-top: 0.3vw;
+  padding-bottom: 0.3vw;
+  top: 1vw;
+  font-family: "Raleway";
+  font-weight: 900;
+}
+.subealfa:hover .subealfalogo {
+  top: 13.6vw;
+}
+.subealfa:hover .subealfaul {
+  visibility: visible;
+}
+.subebravologo {
+  width: 3vw;
+  height: 3vw;
+  position: absolute;
+  top: 15.2vw;
+  left: 29.2vw;
+  transition: 0.3s;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-bottom: 2vw;
+  padding-top: 2vw;
+}
+.subebravoul {
+  position: absolute;
+  left: 33.2vw;
+  width: 17vw;
+  height: 10.3vw;
+  background: whitesmoke;
+  top: 19.5vw;
+  visibility: hidden;
+  border-radius: 0.6vw;
+  z-index: 2;
+  border: 0.3vw solid black;
+}
+.subebravoul li {
+  list-style: none;
+}
+.subebravoyazi {
+  position: relative;
+  font-family: "Raleway";
+  font-size: 1vw;
+  font-weight: 900;
+  top: 1.5vw;
+  left: 1vw;
+}
+.spanbravo {
+  color: rgb(0, 198, 0);
+  font-weight: 900;
+}
+.subebravobuton {
+  position: relative;
+  left: 5.8vw;
+  padding-left: 0.7vw;
+  padding-right: 0.7vw;
+  padding-top: 0.3vw;
+  padding-bottom: 0.3vw;
+  top: 1vw;
+  font-family: "Raleway";
+  font-weight: 900;
+}
+.subebravobuton a {
+  text-decoration: none;
+  color: black;
+}
+.subebravo:hover .subebravologo {
+  top: 14.5vw;
+}
+.subebravo:hover .subebravoul {
+  visibility: visible;
+}
+.subecharlielogo {
+  width: 3vw;
+  height: 3vw;
+  position: absolute;
+  top: 15.2vw;
+  left: 35.2vw;
+  transition: 0.3s;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-bottom: 2vw;
+  padding-top: 2vw;
+}
+.subecharlieul {
+  position: absolute;
+  left: 39.2vw;
+  width: 17vw;
+  height: 10.3vw;
+  background: whitesmoke;
+  top: 18.5vw;
+  visibility: hidden;
+  border-radius: 0.6vw;
+  border: 0.3vw solid black;
+  z-index: 2;
+}
+.subecharlieul li {
+  list-style: none;
+}
+.subecharlieyazi {
+  position: relative;
+  font-family: "Raleway";
+  font-size: 1vw;
+  font-weight: 900;
+  top: 1.5vw;
+  left: 1vw;
+}
+.spancharlie {
+  color: rgb(0, 198, 0);
+  font-weight: 900;
+}
+.subecharliebuton {
+  position: relative;
+  left: 5.8vw;
+  padding-left: 0.7vw;
+  padding-right: 0.7vw;
+  padding-top: 0.3vw;
+  padding-bottom: 0.3vw;
+  top: 1vw;
+  font-family: "Raleway";
+  font-weight: 900;
+}
+.subecharliebuton a {
+  text-decoration: none;
+  color: black;
+}
+.subecharlie:hover .subecharlielogo {
+  top: 14.5vw;
+}
+.subecharlie:hover .subecharlieul {
+  visibility: visible;
+}
+.subedeltalogo {
+  width: 3vw;
+  height: 3vw;
+  position: absolute;
+  top: 26vw;
+  left: 22.8vw;
+  transition: 0.3s;
+  padding-right: 1vw;
+  padding-bottom: 2vw;
+}
+.subedeltaul {
+  position: absolute;
+  left: 8.2vw;
+  width: 17vw;
+  height: 10.3vw;
+  background: whitesmoke;
+  top: 29vw;
+  visibility: hidden;
+  border-radius: 0.6vw;
+  border: 0.3vw solid black;
+}
+.subedeltaul li {
+  list-style: none;
+}
+.subedeltayazi {
+  position: relative;
+  font-family: "Raleway";
+  font-size: 1vw;
+  font-weight: 900;
+  top: 1.5vw;
+  left: 1vw;
+}
+.spandelta {
+  color: red;
+  font-weight: 900;
+}
+.subedeltabuton {
+  position: relative;
+  left: 5.8vw;
+  padding-left: 0.7vw;
+  padding-right: 0.7vw;
+  padding-top: 0.3vw;
+  padding-bottom: 0.3vw;
+  top: 1vw;
+  font-family: "Raleway";
+  font-weight: 900;
+}
+.subedeltabuton a {
+  text-decoration: none;
+  color: black;
+}
+.subedelta:hover .subedeltalogo {
+  top: 25.2vw;
+}
+.subedelta:hover .subedeltaul {
+  visibility: visible;
+}
+.subesierralogo {
+  width: 3vw;
+  height: 3vw;
+  position: absolute;
+  top: 21.3vw;
+  left: 21.4vw;
+  transition: 0.3s;
+  padding-left: 1vw;
+  padding-top: 2vw;
+}
+.subesierraul {
+  position: absolute;
+  left: 6.2vw;
+  width: 17vw;
+  height: 10.3vw;
+  background: whitesmoke;
+  top: 25.5vw;
+  visibility: hidden;
+  border-radius: 0.6vw;
+  border: 0.3vw solid gold;
+}
+.subesierraul li {
+  list-style: none;
+}
+.subesierrayazi {
+  position: relative;
+  font-family: "Raleway";
+  font-size: 1vw;
+  font-weight: 900;
+  top: 1.5vw;
+  left: 1vw;
+}
+.spansierra {
+  color: red;
+  font-weight: 900;
+}
+.subesierrabuton {
+  position: relative;
+  left: 5.8vw;
+  padding-left: 0.7vw;
+  padding-right: 0.7vw;
+  padding-top: 0.3vw;
+  padding-bottom: 0.3vw;
+  top: -2vw;
+  font-family: "Raleway";
+  font-weight: 900;
+}
+.subesierrabuton a {
+  text-decoration: none;
+  color: black;
+}
+.subesierra:hover .subesierralogo {
+  top: 20.6vw;
+}
+.subesierra:hover .subesierraul {
+  visibility: visible;
+}
+.sierratac {
+  width: 6vw;
+  height: 4vw;
+  position: relative;
+  top: -9.5vw;
+  left: -7vw;
+  rotate: -20deg;
+}
+.subeechologo {
+  width: 3vw;
+  height: 3vw;
+  position: absolute;
+  top: 21.3vw;
+  left: 37vw;
+  transition: 0.3s;
+  padding-left: 1vw;
+  padding-top: 2vw;
+}
+.subeechoul {
+  position: absolute;
+  left: 38vw;
+  width: 17vw;
+  height: 10.3vw;
+  background: whitesmoke;
+  top: 25.5vw;
+  visibility: hidden;
+  border-radius: 0.6vw;
+  border: 0.3vw solid black;
+}
+.subeechoul li {
+  list-style: none;
+}
+.subeechoyazi {
+  position: relative;
+  font-family: "Raleway";
+  font-size: 1vw;
+  font-weight: 900;
+  top: 1.5vw;
+  left: 1vw;
+}
+.spanecho {
+  color: rgb(0, 198, 0);
+  font-weight: 900;
+}
+.subeechobuton {
+  position: relative;
+  left: 5.8vw;
+  padding-left: 0.7vw;
+  padding-right: 0.7vw;
+  padding-top: 0.3vw;
+  padding-bottom: 0.3vw;
+  top: 1vw;
+  font-family: "Raleway";
+  font-weight: 900;
+}
+.subeechobuton a {
+  text-decoration: none;
+  color: black;
+}
+.subeecho:hover .subeechologo {
+  top: 20.6vw;
+}
+.subeecho:hover .subeechoul {
+  visibility: visible;
+}
+.urunpizza {
+  position: absolute;
+  font-family: "Raleway";
+  font-size: 5vw;
+  background-color: rgba(0, 0, 0, 0.729);
+  color: white;
+  width: 60vw;
+  text-align: center;
+  padding: 3vw;
+  padding-bottom: 7.5vw;
+  top: 45vw;
+  z-index: 2;
+}
+.urunlersayfaelement {
+  height: 30vw;
+  overflow: hidden;
+  width: 100%;
+}
+.urunresim1 {
+  width: 100%;
+  position: relative;
+  bottom: 19.5vw;
+}
+.uruntavuk {
+  position: absolute;
+  font-family: "Raleway";
+  font-size: 5vw;
+  background-color: rgba(0, 0, 0, 0.729);
+  color: white;
+  width: 60vw;
+  text-align: center;
+  padding: 3vw;
+  padding-bottom: 7.5vw;
+  top: 77vw;
+  z-index: 2;
+  left: 32.8vw;
+}
+.urunet {
+  position: absolute;
+  font-family: "Raleway";
+  font-size: 5vw;
+  background-color: rgba(0, 0, 0, 0.729);
+  color: white;
+  width: 60vw;
+  text-align: center;
+  padding: 3vw;
+  padding-bottom: 7.5vw;
+  top: 108vw;
+  z-index: 2;
+}
+.urunbalik {
+  position: absolute;
+  font-family: "Raleway";
+  font-size: 5vw;
+  background-color: rgba(0, 0, 0, 0.729);
+  color: white;
+  width: 60vw;
+  text-align: center;
+  padding: 3vw;
+  padding-bottom: 7.5vw;
+  top: 139vw;
+  z-index: 2;
+  left: 32.8vw;
+}
+.urunvegan {
+  position: absolute;
+  font-family: "Raleway";
+  font-size: 5vw;
+  background-color: rgba(0, 0, 0, 0.729);
+  color: white;
+  width: 60vw;
+  text-align: center;
+  padding: 3vw;
+  padding-bottom: 7.5vw;
+  top: 170vw;
+  z-index: 2;
+}
+.urunspecial {
+  position: absolute;
+  font-family: "Raleway";
+  font-size: 5vw;
+  background-color: rgba(0, 0, 0, 0.729);
+  color: white;
+  width: 60vw;
+  text-align: center;
+  padding: 3vw;
+  padding-bottom: 7.5vw;
+  top: 201vw;
+  z-index: 2;
+  left: 32.8vw;
+}
+.uruntatli {
+  position: absolute;
+  font-family: "Raleway";
+  font-size: 5vw;
+  background-color: rgba(0, 0, 0, 0.729);
+  color: white;
+  width: 60vw;
+  text-align: center;
+  padding: 3vw;
+  padding-bottom: 7.5vw;
+  top: 233vw;
+  z-index: 2;
+}
+.urunicecek {
+  position: absolute;
+  font-family: "Raleway";
+  font-size: 5vw;
+  background-color: rgba(0, 0, 0, 0.729);
+  color: white;
+  width: 60vw;
+  text-align: center;
+  padding: 3vw;
+  padding-bottom: 7.5vw;
+  top: 265vw;
+  z-index: 2;
+  left: 32.8vw;
+}
+.urunresim8 {
+  width: 100%;
+  position: relative;
+  bottom: 24.5vw;
+}
+.hakkimizdasayfa {
+  width: 100%;
+  height: 200vw;
+  background: #f05f33;
+  overflow: hidden;
+}
+.hakkimizdasayfabg {
+  width: 120vw;
+  height: 120vw;
+  position: relative;
+  left: -30vw;
+  top: -20vw;
+  opacity: 0.3;
+}
+.hakkimizdavideo1 {
+  width: 29vw;
+  position: absolute;
+  top: 55vw;
+  left: 2vw;
+}
+.kimlikbaslik {
+  position: absolute;
+  font-family: "Raleway";
+  font-size: 5vw;
+  background-color: rgba(0, 0, 0, 0.729);
+  color: white;
+  width: 60vw;
+  text-align: center;
+  padding: 3vw;
+  top: 33vw;
+  z-index: 2;
+}
+.kimlikyazi {
+  position: absolute;
+  font-family: "Raleway";
+  font-size: 3vw;
+  background-color: rgba(0, 0, 0, 0.729);
+  color: white;
+  width: 60vw;
+  padding: 3vw;
+  top: 43vw;
+  z-index: 2;
+  right: 0vw;
+}
+.kimlikbaslik2 {
+  position: absolute;
+  font-family: "Raleway";
+  font-size: 5vw;
+  background-color: rgba(0, 0, 0, 0.729);
+  color: white;
+  width: 60vw;
+  text-align: center;
+  padding: 3vw;
+  top: 93vw;
+  z-index: 2;
+  left: 26.8vw;
+}
+.kimlikyazi2 {
+  position: absolute;
+  font-family: "Raleway";
+  font-size: 3vw;
+  background-color: rgba(0, 0, 0, 0.729);
+  color: white;
+  width: 60vw;
+  padding: 3vw;
+  top: 108vw;
+  z-index: 2;
+  width: 60vw;
+  left: 3vw;
+}
+.hakkimizdavideo2 {
+  width: 27vw;
+  position: absolute;
+  top: 120vw;
+  right: 1vw;
+}
+.mySlides {
+  display: none;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 45vw;
+  position: relative;
+  margin: auto;
+  top: 20vw;
+  left: -22vw;
+}
+.slideshow-container img {
+  width: 45vw;
+  height: 30vw;
+}
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 2vw;
+  margin-top: -2.8vw;
+  color: white;
+  font-weight: bold;
+  font-size: 2vw;
+  transition: 0.6s ease;
+  border-radius: 0 1vw 1vw 0;
+  user-select: none;
+}
+.prev {
+  left: -5vw;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: -5vw;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 1vw;
+  width: 1vw;
+  margin: 0 2px;
+  background: white;
+  border: 0.2vw solid #9dbad8;
+  border-radius: 30%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  top: 20vw;
+  position: relative;
+  rotate: 45deg;
+  left: -22vw;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
+.slaytyazi {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.63);
+  color: white;
+  font-family: "Raleway";
+  font-size: 2vw;
+  bottom: 2vw;
+  padding: 2vw;
+}
+.odullerbaslik {
+  font-size: 6vw;
+  font-family: "Raleway";
+  position: relative;
+  background: rgba(255, 255, 255, 0.656);
+  width: 100%;
+  padding: 4vw;
+  top: 12vw;
+  left: 12vw;
+  z-index: 3;
+}
+.hakkimizdayazison {
+  font-size: 2vw;
+  font-family: "Raleway";
+  position: relative;
+  background: rgba(0, 0, 0, 0.656);
+  padding: 4vw;
+  top: -19vw;
+  left: 62vw;
+  color: white;
+  width: 24vw;
+  z-index: 2;
+  rotate: 12deg;
+}
+.hakkimizdavideo3 {
+  width: 20vw;
+  position: relative;
+  top: -19vw;
+  left: 67vw;
+  rotate: -12deg;
+}
+footer {
+  width: 100%;
+  height: 43vw;
+  background-color: #202020;
+  z-index: 3;
+}
+.footerlink {
+  display: inline-block;
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 900;
+  font-size: 1vw;
+  padding: 0.3vw;
+}
+
+.footerlink::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ff5700;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.footerlink:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.footerurunler {
+  position: absolute;
+  left: 23vw;
+  border-right: #9dbad8 solid 0.2vw;
+  width: 12vw;
+}
+.footerharita {
+  position: absolute;
+  left: 40vw;
+  border-right: #9dbad8 solid 0.2vw;
+  width: 12vw;
+}
+.footerdestek {
+  position: absolute;
+  left: 60vw;
+  border-right: #9dbad8 solid 0.2vw;
+  width: 12vw;
+}
+.footerurunlerlink1 {
+  list-style-type: none;
+  padding: 0.3vw;
+}
+.footerurunlerbaslik {
+  position: relative;
+  padding: 0;
+}
+.footerharitabaslik {
+  position: relative;
+  padding: 0;
+  cursor: context-menu;
+}
+.footerdestekbaslik {
+  position: relative;
+  padding: 0;
+  cursor: context-menu;
+}
+.footerdestekbaslik {
+  display: inline-block;
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 900;
+  font-size: 2vw;
+  bottom: 2vw;
+  left: 0.4vw;
+  cursor: context-menu;
+}
+
+.footerdestekbaslik::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #9dbad8;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.footerdestekbaslik:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.footerharitabaslik {
+  display: inline-block;
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 900;
+  font-size: 2vw;
+  bottom: 2vw;
+  left: 0.4vw;
+  cursor: context-menu;
+}
+
+.footerharitabaslik::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #9dbad8;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.footerharitabaslik:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.footerlink1 {
+  display: inline-block;
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 900;
+  font-size: 1vw;
+  bottom: 2vw;
+  left: 0.4vw;
+}
+
+.footerlink1::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #9dbad8;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.footerlink1:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.footersponsor1 {
+  position: relative;
+  width: min-content;
+  height: min-content;
+  padding-bottom: 2vw;
+}
+.footersponsor2 {
+  position: relative;
+  width: min-content;
+  height: min-content;
+  padding-bottom: 2vw;
+}
+.sponsor2 {
+  width: 10vw;
+  height: 5vw;
+}
+.sponsor1 {
+  width: 10vw;
+  height: 3vw;
+}
+.sponsor3 {
+  width: 10vw;
+  height: 6vw;
+}
+.footersponsor3 {
+  position: relative;
+  width: min-content;
+  height: 4.4vw;
+  overflow: hidden;
+}
+.footersponsor1:hover {
+  opacity: 0.5;
+}
+.footersponsor2:hover .sponsor2 {
+  opacity: 0.5;
+}
+.footersponsor3:hover {
+  opacity: 0.5;
+}
+.sponsorlar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  left: 80vw;
+}
+.rightssube {
+  font-family: "Raleway";
+  font-size: 0.7vw;
+  font-weight: 900;
+  width: 100%;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 127vw;
+}
+.footerustyazisube {
+  font-family: "Caveat";
+  font-size: 3.2vw;
+  width: 78vw;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 91vw;
+  left: 13vw;
+}
+.rightsurun {
+  font-family: "Raleway";
+  font-size: 0.7vw;
+  font-weight: 900;
+  width: 100%;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 232vw;
+}
+.footerustyaziurun {
+  font-family: "Caveat";
+  font-size: 3.2vw;
+  width: 78vw;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 197vw;
+  left: 13vw;
+}
+.rightshakkimizda {
+  font-family: "Raleway";
+  font-size: 0.7vw;
+  font-weight: 900;
+  width: 100%;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 268vw;
+}
+.footerustyazihakkimizda {
+  font-family: "Caveat";
+  font-size: 3.2vw;
+  width: 78vw;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 233vw;
+  left: 13vw;
+}
+.rightsurunler {
+  font-family: "Raleway";
+  font-size: 0.7vw;
+  font-weight: 900;
+  width: 100%;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 329vw;
+}
+.footerustyaziurunler {
+  font-family: "Caveat";
+  font-size: 3.2vw;
+  width: 78vw;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 294vw;
+  left: 13vw;
+}
+.kampanyalarsayfa {
+  background: #ff5700;
+  width: 100%;
+  height: 130vw;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.kampanyalarustbaslik {
+  display: inline-block;
+  position: absolute;
+  color: white;
+  text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 900;
+  font-size: 5vw;
+  cursor: context-menu;
+  text-align: center;
+  width: 100%;
+  top: 38vw;
+}
+
+.kampanyalarustbaslik::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 0.2vw;
+  bottom: 0;
+  left: 0;
+  background-color: #9dbad8;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.kampanyalarustbaslik:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.kampanya1 {
+  width: 32vw;
+  height: 41vw;
+  position: absolute;
+  background: #007bb5;
+  left: 15%;
+  top: 55vw;
+  text-decoration: none;
+  background: url(gorselicerik/sufle.jpg);
+  background-size: 65vw;
+  background-position: 51vw;
+  box-shadow: 0.4vw 0.4vw 0.4vw rgba(0, 0, 0, 0.358);
+  z-index: 2;
+}
+.kampanya2 {
+  width: 32vw;
+  height: 41vw;
+  position: absolute;
+  background: #007bb5;
+  right: 15%;
+  top: 55vw;
+  text-decoration: none;
+  background: url(gorselicerik/kampanya2.jpg);
+  background-position: 1vw 3vw;
+  box-shadow: 0.4vw 0.4vw 0.4vw rgba(0, 0, 0, 0.358);
+  z-index: 2;
+}
+.kampanya3 {
+  width: 32vw;
+  height: 41vw;
+  position: absolute;
+  background: #007bb5;
+  left: 15%;
+  top: 101vw;
+  text-decoration: none;
+  background: url(gorselicerik/kampanya3.jpg);
+  background-size: 15vw;
+  background-position: 51vw;
+  box-shadow: 0.4vw 0.4vw 0.4vw rgba(0, 0, 0, 0.358);
+  z-index: 2;
+}
+.kampanya4 {
+  width: 32vw;
+  height: 41vw;
+  position: absolute;
+  background: #007bb5;
+  right: 15%;
+  top: 101vw;
+  text-decoration: none;
+  background: url(gorselicerik/kampanya4.jpg);
+  background-size: 35vw;
+  background-position: 3vw;
+  box-shadow: 0.4vw 0.4vw 0.4vw rgba(0, 0, 0, 0.358);
+  z-index: 2;
+}
+.kampanya1bg {
+  background: rgba(0, 0, 0, 0.525);
+  width: 32vw;
+  height: 41vw;
+}
+.kampanya1h1 {
+  color: white;
+  font-family: "Raleway";
+  font-size: 3vw;
+  background: rgba(0, 0, 0, 0.688);
+  text-align: center;
+  top: 11%;
+  position: relative;
+  padding-bottom: 1vw;
+  padding-top: 1vw;
+  text-decoration: none;
+  cursor: context-menu;
+}
+.kampanya1p {
+  color: white;
+  font-family: "Raleway";
+  font-size: 1vw;
+  background: rgba(0, 0, 0, 0.688);
+  text-align: center;
+  top: 47%;
+  position: relative;
+  padding-bottom: 1vw;
+  padding-top: 1vw;
+  transition: 0.3s;
+  opacity: 0;
+  text-decoration: none;
+  cursor: context-menu;
+}
+.kampanya1:hover .kampanya1p {
+  top: 28%;
+  opacity: 1;
+}
+.kampanya2:hover .kampanya1p {
+  top: 28%;
+  opacity: 1;
+}
+.kampanya3:hover .kampanya1p {
+  top: 28%;
+  opacity: 1;
+}
+.kampanya4:hover .kampanya1p {
+  top: 28%;
+  opacity: 1;
+}
+.rightskampanya {
+  font-family: "Raleway";
+  font-size: 0.7vw;
+  font-weight: 900;
+  width: 100%;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 197vw;
+  z-index: 3;
+}
+.footerustyazikampanya {
+  font-family: "Caveat";
+  font-size: 3.2vw;
+  width: 78vw;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 162vw;
+  left: 13vw;
+  z-index: 3;
+}
+.kampanyalarbeyaz1 {
+  position: absolute;
+  width: 80vw;
+  height: 80vw;
+  top: 34vw;
+  opacity: 0.5;
+  rotate: 15deg;
+  left: -10vw;
+}
+.kampanyalarbeyaz2 {
+  position: absolute;
+  width: 80vw;
+  height: 80vw;
+  top: 81vw;
+  opacity: 0.5;
+  rotate: -35deg;
+  z-index: 1;
+}
+.kampanyalarbeyaz3 {
+  position: absolute;
+  width: 45vw;
+  height: 45vw;
+  top: 64vw;
+  opacity: 0.5;
+  rotate: -15deg;
+  left: 45vw;
+}
+.iletisimsecim {
+  width: 100%;
+  height: 7vw;
+  background: whitesmoke;
+  position: relative;
+  border-radius: 0.2vw;
+  text-decoration: none;
+}
+.iletisimsayfa {
+  width: 100%;
+  height: 300vw;
+  background: #9dbad8;
+}
+.iletisimsecim1 {
+  list-style: none;
+  text-decoration: none;
+}
+.iletisimsecimul li {
+  list-style: none;
+  position: relative;
+  top: 2vw;
+}
+.iletisimsecimul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.iletisimsecim1yazi {
+  font-family: "Raleway";
+  font-size: 1.5vw;
+  font-weight: 900;
+  padding: 0.5vw;
+  border: 0.1vw solid black;
+  border-radius: 1vw;
+  padding: 0.6vw;
+}
+.iletisimsecim1 a {
+  text-decoration: none;
+  color: #000000;
+}
+.iletisimsecim1yazi:hover {
+  background: #ff5700;
+  color: white;
+}
+#oneri {
+  width: 100%;
+  height: 40vw;
+  overflow: hidden;
+  background: url(gorselicerik/oneri.jpg);
+  background-size: 120vw;
+  background-position: 0.01vw;
+}
+.iletisimbaslik1 {
+  width: 100%;
+  height: min-content;
+  background: #ff5700;
+  text-align: center;
+  font-size: 2vw;
+  padding-bottom: 1vw;
+  padding-top: 1vw;
+  font-weight: 900;
+  font-family: "Raleway";
+  color: white;
+}
+textarea {
+  position: absolute;
+  width: 34vw;
+  height: 20vw;
+  right: 18vw;
+  top: 46vw;
+  font-size: 2vw;
+  font-family: "Raleway";
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 1vw;
+  outline: none;
+  color: white;
+  font-size: 2vw;
+}
+.mesajkutu1 {
+  margin: 0.6vw;
+  position: absolute;
+  left: 3vw;
+  top: 43vw;
+}
+.mesajkutu1 input {
+  padding: 1.8vw;
+  width: 16vw;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  font-size: 2vw;
+  transition: 0.5s;
+  font-family: "Raleway";
+}
+.mesajkutu2 {
+  margin: 0.6vw;
+  position: absolute;
+  left: 3vw;
+  top: 52vw;
+}
+.mesajkutu2 input {
+  padding: 1.8vw;
+  width: 16vw;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  font-size: 2vw;
+  transition: 0.5s;
+  font-family: "Raleway";
+}
+.mesajkutu3 {
+  margin: 0.6vw;
+  position: absolute;
+  left: 3vw;
+  top: 62vw;
+}
+.mesajkutu3 input {
+  padding: 1.8vw;
+  width: 16vw;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  font-size: 2vw;
+  transition: 0.5s;
+  font-family: "Raleway";
+}
+.mesajkutu4 {
+  margin: 0.6vw;
+  position: absolute;
+  left: 23.5vw;
+  top: 43vw;
+}
+.mesajkutu4 input {
+  padding: 1.8vw;
+  width: 16vw;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  font-size: 2vw;
+  transition: 0.5s;
+  font-family: "Raleway";
+}
+.mesajkutu5 {
+  margin: 0.6vw;
+  position: absolute;
+  left: 23.5vw;
+  top: 52vw;
+}
+.mesajkutu5 input {
+  padding: 1.8vw;
+  width: 16vw;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  font-size: 2vw;
+  transition: 0.5s;
+  font-family: "Raleway";
+}
+.mesajkutu6 {
+  margin: 0.6vw;
+  position: absolute;
+  left: 23.5vw;
+  top: 62vw;
+}
+.mesajkutu6 input {
+  padding: 1.8vw;
+  width: 16vw;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  font-size: 2vw;
+  transition: 0.5s;
+  font-family: "Raleway";
+}
+.mesajkutu1 span {
+  position: absolute;
+  left: 8vw;
+  top: -3vw;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  margin: 0;
+  pointer-events: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.9vw;
+  font-family: "Raleway";
+}
+.mesajkutu1 input:valid,
+.mesajkutu1 input:focus {
+  border: 0.1vw solid pink;
+}
+.mesajkutu2 span {
+  position: absolute;
+  left: 6.5vw;
+  top: -2.5vw;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  margin: 0;
+  pointer-events: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.9vw;
+  font-family: "Raleway";
+}
+.mesajkutu2 input:valid,
+.mesajkutu2 input:focus {
+  border: 0.1vw solid pink;
+}
+.mesajkutu3 span {
+  position: absolute;
+  left: 7.5vw;
+  top: -2.7vw;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  margin: 0;
+  pointer-events: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.9vw;
+  font-family: "Raleway";
+}
+.mesajkutu3 input:valid,
+.mesajkutu3 input:focus {
+  border: 0.1vw solid pink;
+}
+.mesajkutu4 span {
+  position: absolute;
+  left: 6.8vw;
+  top: -2.7vw;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  margin: 0;
+  pointer-events: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.9vw;
+  font-family: "Raleway";
+}
+.mesajkutu4 input:valid,
+.mesajkutu4 input:focus {
+  border: 0.1vw solid pink;
+}
+.mesajkutu5 span {
+  position: absolute;
+  left: 7vw;
+  top: -2.7vw;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  margin: 0;
+  pointer-events: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.9vw;
+  font-family: "Raleway";
+}
+.mesajkutu5 input:valid,
+.mesajkutu5 input:focus {
+  border: 0.1vw solid pink;
+}
+.mesajkutu6 span {
+  position: absolute;
+  left: 5.5vw;
+  top: -2.7vw;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  margin: 0;
+  pointer-events: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.9vw;
+  font-family: "Raleway";
+}
+.mesajkutu6 input:valid,
+.mesajkutu6 input:focus {
+  border: 0.1vw solid pink;
+}
+.gonder {
+  position: absolute;
+  left: 86vw;
+  background: transparent;
+  font-size: 2vw;
+  font-weight: 900;
+  font-family: "Raleway";
+  top: 50vw;
+  border: 0.1vw solid white;
+  padding-bottom: 1.4vw;
+  padding-top: 1.4vw;
+  transition: 0.3s;
+}
+.gonder a {
+  padding: 1.4vw;
+  text-decoration: none;
+  color: white;
+}
+.gonder:hover {
+  background: white;
+  border: 0.2vw solid #ff5700;
+}
+.gonder:hover a {
+  color: #ff5700;
+}
+.temizle {
+  position: absolute;
+  left: 85.9vw;
+  background: transparent;
+  font-size: 2vw;
+  font-weight: 900;
+  font-family: "Raleway";
+  top: 57vw;
+  border: 0.1vw solid white;
+  padding-bottom: 1.4vw;
+  padding-top: 1.4vw;
+  transition: 0.3s;
+}
+.temizle a {
+  padding: 1.4vw;
+  text-decoration: none;
+  color: white;
+}
+.temizle:hover {
+  background: white;
+  border: 0.2vw solid #ff5700;
+}
+.temizle:hover a {
+  color: #ff5700;
+}
+#basvuru {
+  background: #3b5998;
+  width: 100%;
+  height: 40vw;
+  background: url(gorselicerik/basvuru.jpg);
+  background-size: 120vw;
+  background-position: 0.01vw;
+}
+.mesajkutu7 {
+  margin: 0.6vw;
+  position: absolute;
+  left: 3vw;
+  top: 83vw;
+}
+.mesajkutu7 input {
+  padding: 1.8vw;
+  width: 16vw;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  font-size: 2vw;
+  transition: 0.5s;
+  font-family: "Raleway";
+}
+.mesajkutu8 {
+  margin: 0.6vw;
+  position: absolute;
+  left: 3vw;
+  top: 92vw;
+}
+.mesajkutu8 input {
+  padding: 1.8vw;
+  width: 16vw;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  font-size: 2vw;
+  transition: 0.5s;
+  font-family: "Raleway";
+}
+.mesajkutu9 {
+  margin: 0.6vw;
+  position: absolute;
+  left: 3vw;
+  top: 102vw;
+}
+.mesajkutu9 input {
+  padding: 1.8vw;
+  width: 16vw;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  font-size: 2vw;
+  transition: 0.5s;
+  font-family: "Raleway";
+}
+.mesajkutu10 {
+  margin: 0.6vw;
+  position: absolute;
+  left: 23.5vw;
+  top: 83vw;
+}
+.mesajkutu10 input {
+  padding: 1.8vw;
+  width: 16vw;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  font-size: 2vw;
+  transition: 0.5s;
+  font-family: "Raleway";
+}
+.mesajkutu11 {
+  margin: 0.6vw;
+  position: absolute;
+  left: 23.5vw;
+  top: 92vw;
+}
+.mesajkutu11 input {
+  padding: 1.8vw;
+  width: 16vw;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  font-size: 2vw;
+  transition: 0.5s;
+  font-family: "Raleway";
+}
+.konum {
+  margin: 0.6vw;
+  position: absolute;
+  left: 23.5vw;
+  top: 102vw;
+}
+.konum {
+  padding: 1.8vw;
+  width: 19.7vw;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  font-size: 2vw;
+  font-family: "Raleway";
+}
+option {
+  color: black;
+  font-size: 2vw;
+  font-family: "Raleway";
+  background: white;
+}
+.mesajkutu7 span {
+  position: absolute;
+  left: 8vw;
+  top: -3vw;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  margin: 0;
+  pointer-events: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.9vw;
+  font-family: "Raleway";
+}
+.mesajkutu7 input:valid,
+.mesajkutu7 input:focus {
+  border: 0.1vw solid pink;
+}
+.mesajkutu8 span {
+  position: absolute;
+  left: 6.5vw;
+  top: -2.5vw;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  margin: 0;
+  pointer-events: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.9vw;
+  font-family: "Raleway";
+}
+.mesajkutu8 input:valid,
+.mesajkutu8 input:focus {
+  border: 0.1vw solid pink;
+}
+.mesajkutu9 span {
+  position: absolute;
+  left: 7.5vw;
+  top: -2.7vw;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  margin: 0;
+  pointer-events: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.9vw;
+  font-family: "Raleway";
+}
+.mesajkutu9 input:valid,
+.mesajkutu9 input:focus {
+  border: 0.1vw solid pink;
+}
+.mesajkutu10 span {
+  position: absolute;
+  left: 6.8vw;
+  top: -2.7vw;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  margin: 0;
+  pointer-events: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.9vw;
+  font-family: "Raleway";
+}
+.mesajkutu10 input:valid,
+.mesajkutu10 input:focus {
+  border: 0.1vw solid pink;
+}
+.mesajkutu11 span {
+  position: absolute;
+  left: 5.4vw;
+  top: -2.7vw;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  margin: 0;
+  pointer-events: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.9vw;
+  font-family: "Raleway";
+}
+.mesajkutu11 input:valid,
+.mesajkutu11 input:focus {
+  border: 0.1vw solid pink;
+}
+.mesajkutu12 {
+  margin: 0.6vw;
+  position: absolute;
+  left: 23.5vw;
+  top: 113vw;
+}
+.mesajkutu12 input {
+  padding: 1.8vw;
+  width: 16vw;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  font-size: 2vw;
+  transition: 0.5s;
+  font-family: "Raleway";
+}
+#duzey {
+  padding: 1.8vw;
+  background: transparent;
+}
+.duzey {
+  margin: 0.6vw;
+  position: absolute;
+  left: 43.5vw;
+  top: 92vw;
+}
+.duzey {
+  padding: 1.8vw;
+  width: 19.7vw;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  font-size: 2vw;
+  font-family: "Raleway";
+}
+.gonder1 {
+  position: absolute;
+  right: 10vw;
+  background: transparent;
+  font-size: 2vw;
+  font-weight: 900;
+  font-family: "Raleway";
+  top: 90vw;
+  border: 0.1vw solid white;
+  padding-bottom: 1.4vw;
+  padding-top: 1.4vw;
+  transition: 0.3s;
+}
+.gonder1 a {
+  padding: 1.4vw;
+  text-decoration: none;
+  color: white;
+}
+.gonder1:hover {
+  background: white;
+  border: 0.2vw solid #ff5700;
+}
+.gonder1:hover a {
+  color: #ff5700;
+}
+.temizle1 {
+  position: absolute;
+  right: 9.9vw;
+  background: transparent;
+  font-size: 2vw;
+  font-weight: 900;
+  font-family: "Raleway";
+  top: 100vw;
+  border: 0.1vw solid white;
+  padding-bottom: 1.4vw;
+  padding-top: 1.4vw;
+  transition: 0.3s;
+}
+.temizle1 a {
+  padding: 1.4vw;
+  text-decoration: none;
+  color: white;
+}
+.temizle1:hover {
+  background: white;
+  border: 0.2vw solid #ff5700;
+}
+.temizle1:hover a {
+  color: #ff5700;
+}
+.soru1alan {
+  width: 90%;
+  position: relative;
+  top: 10vw;
+  background: #0000007d;
+  color: white;
+  padding: 3vw;
+  height: 30vw;
+  left: 2%;
+}
+.soru2alan {
+  width: 90%;
+  position: relative;
+  top: 13vw;
+  background: #0000007d;
+  color: white;
+  padding: 3vw;
+  height: 30vw;
+  left: 2%;
+}
+.soru3alan {
+  width: 90%;
+  position: relative;
+  top: 16vw;
+  background: #0000007d;
+  color: white;
+  padding: 3vw;
+  height: 30vw;
+  left: 2%;
+}
+.soru4alan {
+  width: 90%;
+  position: relative;
+  top: 19vw;
+  background: #0000007d;
+  color: white;
+  padding: 3vw;
+  height: 30vw;
+  left: 2%;
+}
+#sss {
+  width: 100%;
+  height: 172vw;
+  overflow: hidden;
+  background: url(gorselicerik/siksorulansorular\ -\ Kopya.jpg);
+  background-size: 100vw;
+  background-position: 0.01vw;
+}
+.sss1 {
+  font-size: 2vw;
+  font-weight: 900;
+  font-family: "Raleway";
+}
+.sssa {
+  font-size: 1.5vw;
+  font-weight: 900;
+  font-family: "Raleway";
+  position: relative;
+  top: 4vw;
+}
+#sozlesme {
+  width: 100%;
+  height: 151.1vw;
+  overflow: hidden;
+  background: url(gorselicerik/onlinesozlesme.jpg);
+  background-size: 100vw;
+  background-position: 0.01vw;
+}
+.sozlesmealan1 {
+  width: 80%;
+  height: 151.1vw;
+  color: white;
+  font-family: "Raleway";
+  background: #00000088;
+  position: relative;
+  left: 10%;
+}
+.sozlesmeyazi {
+  color: white;
+  font-family: "Raleway";
+  width: 80%;
+  position: absolute;
+  top: 12vw;
+  text-align: center;
+  width: 100%;
+  font-size: 1.3vw;
+  border-bottom: 0.15vw white solid;
+  padding-bottom: 2vw;
+}
+.sozlesmeyazi2 {
+  color: white;
+  font-family: "Raleway";
+  width: 80%;
+  position: absolute;
+  top: 38vw;
+  text-align: center;
+  width: 100%;
+  font-size: 1.3vw;
+  border-bottom: 0.15vw white solid;
+  padding-bottom: 2vw;
+}
+.sozlesmeyazi3 {
+  color: white;
+  font-family: "Raleway";
+  width: 80%;
+  position: absolute;
+  top: 62vw;
+  text-align: center;
+  width: 100%;
+  font-size: 1.3vw;
+  border-bottom: 0.15vw white solid;
+  padding-bottom: 2vw;
+}
+.sozlesmeyazi4 {
+  color: white;
+  font-family: "Raleway";
+  position: absolute;
+  top: 92vw;
+  text-align: center;
+  width: 100%;
+  font-size: 1.3vw;
+  border-bottom: 0.15vw white solid;
+  padding-bottom: 2vw;
+  height: 30vw;
+}
+.sozlesmep2 {
+  position: absolute;
+  top: 99vw;
+  left: 10%;
+  width: 80%;
+  text-align: center;
+  font-size: 1.3vw;
+}
+.sozlesmealan1 h1 {
+  position: absolute;
+  top: 6.5vw;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 2vw;
+  border-bottom: 0.15vw white solid;
+}
+.sozlesmespan1 {
+  font-size: 2vw;
+  font-weight: 800;
+}
+.sozlesmespan3 {
+  font-size: 1.4vw;
+  font-weight: 900;
+}
+.sozlesmeh4 {
+  position: absolute;
+  top: 128vw;
+  left: 10%;
+  width: 80%;
+  text-align: center;
+  font-size: 1.6vw;
+}
+.sozlesmelogo1 {
+  position: absolute;
+  top: 424vw;
+  width: 13.3vw;
+  height: 13vw;
+  left: 42.6vw;
+}
+.sozlesmealan1 h1 {
+  font-size: 3vw;
+}
+.rightsiletisim {
+  font-family: "Raleway";
+  font-size: 0.7vw;
+  font-weight: 900;
+  width: 100%;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 478vw;
+  z-index: 3;
+}
+.footerustyaziiletisim {
+  font-family: "Caveat";
+  font-size: 3.2vw;
+  width: 78vw;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 442vw;
+  left: 13vw;
+  z-index: 3;
+}
+.hamburger {
+  display: none;
+}
+.footerlogo {
+  width: 15vw;
+  height: 15vw;
+}
+.sosyalmedya {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 15vw;
+  height: 24.7vw;
+  border-right: 0.2vw solid #f05f33;
+  position: absolute;
+  left: 0.1vw;
+}
+.fa {
+  padding: 1vw;
+  font-size: 10vw;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  width: 1vw;
+  left: 20%;
+  position: relative;
+}
+
+.fa:hover a {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+.sosyalyazi {
+  position: absolute;
+  left: 5.3vw;
+  top: 0.9vw;
+  font-family: "Raleway";
+  font-size: 1.2vw;
+  font-weight: 900;
+  visibility: hidden;
+  transition: 0.3s;
+  color: white;
+}
+.fa:hover .sosyalyazi {
+  visibility: visible;
+  opacity: 1;
+  left: 3.5vw;
+}
+.siparishatti {
+  width: 11vw;
+  height: 7vw;
+  position: absolute;
+  left: 2vw;
+  top: 8vw;
+  background: url(gorselicerik/siparishatti.png);
+  background-size: 11vw;
+  animation-name: degis;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+@keyframes degis {
+  0% {
+    background: url(gorselicerik/siparishatti.png);
+    background-size: 11vw;
+  }
+  50% {
+    background: url(gorselicerik/siparishattizit.png);
+    background-size: 11vw;
+  }
+  100% {
+    background: url(gorselicerik/siparishatti.png);
+    background-size: 11vw;
+  }
+}
+.sepet {
+  position: absolute;
+  right: 2vw;
+  top: 9vw;
+  cursor: pointer;
+}
+.sepett {
+  width: 11vw;
+  height: 5vw;
+}
+@media screen and (max-width: 800px) {
+  .hamburger {
+    position: fixed;
+    right: -3vw;
+    top: 5vw;
+    display: flex;
+    background: #000000;
+    z-index: 200;
+    width: 14vw;
+    border: 0.1vw white solid;
+  }
+  .hamburgerlogo {
+    width: 6vw;
+    height: 5vw;
+  }
+  .tavuknavul.open {
+    display: block;
+  }
+  .tavuknavul {
+    position: fixed;
+    height: 220vw;
+    flex-direction: column;
+    align-items: baseline;
+    display: none;
+    font-size: 11vw;
+  }
+  .tavuknavul .nava {
+    font-size: 7vw;
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 11vw;
+    top: 0;
+    border: 0;
+  }
+  .tavuknavul ul {
+    flex-direction: column;
+    top: 26vw;
+    align-items: center;
+  }
+  .rightsurunler {
+    display: none;
+  }
+  .footerdestek {
+    display: none;
+  }
+  .sponsorlar {
+    display: none;
+  }
+  .footerurunler {
+    display: none;
+  }
+  .footerharita {
+    display: none;
+  }
+  .footerustyaziurunler {
+    display: none;
+  }
+  footer {
+    height: 30vw;
+  }
+  .sosyalmedya {
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    left: 30vw;
+    bottom: 18vw;
+    border-right: none;
+    width: 50vw;
+    height: min-content;
+  }
+  .sosyalmedya a {
+    font-size: 3vw;
+  }
+  .footerlogo {
+    width: 30vw;
+    height: 30vw;
+  }
+  .fa-facebook {
+    background: transparent;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: transparent;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: transparent;
+    color: white;
+  }
+
+  .fa-youtube {
+    background: transparent;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: transparent;
+    color: white;
+  }
+
+  .fa-pinterest {
+    background: transparent;
+    color: white;
+  }
+
+  .fa-skype {
+    background: transparent;
+    color: white;
+  }
+
+  .fa-reddit {
+    background: transparent;
+    color: white;
+  }
+  .sosyalyazi {
+    display: none;
+  }
+  .fa {
+    text-align: center;
+    text-decoration: none;
+    width: 1vw;
+    position: relative;
+    height: 1vw;
+  }
+  .urunbalik {
+    top: 161vw;
+    left: 28vw;
+  }
+  .uruntavuk {
+    top: 98vw;
+    left: 28vw;
+  }
+  .urunspecial {
+    top: 226vw;
+    left: 28vw;
+  }
+  .urunicecek {
+    top: 286vw;
+    left: 28vw;
+  }
+  .urunpizza {
+    top: 68vw;
+  }
+  .urunet {
+    top: 131vw;
+  }
+  .urunvegan {
+    top: 196vw;
+  }
+  .uruntatli {
+    top: 256vw;
+  }
+  .subelerustyazi {
+    height: 20vw;
+  }
+  .subelerustyazi p {
+    font-family: "Raleway";
+    font-size: 3.5vw;
+    font-weight: 900;
+    line-height: 20vw;
+  }
+  .siparishatti {
+    display: none;
+  }
+  nav {
+    height: 40vw;
+    animation-name: none;
+  }
+  .navbgvarea .navbgv {
+    display: none;
+  }
+  .navbgvarea {
+    background: url(gorselicerik/pizzaortaarkaplan.jpg);
+    background-size: 111vw;
+    animation-name: none;
+    background-position: 0.01vw;
+    height: 40vw;
+  }
+  .sepet {
+    display: none;
+  }
+  .navbeyazlogo {
+    width: 32.6vw;
+    height: 32.6vw;
+  }
+  .navanimlogo {
+    width: 30vw;
+    height: 30vw;
+    left: 8.3vw;
+    top: 4vw;
+  }
+  .footerustyazisube {
+    display: none;
+  }
+  .rightssube {
+    display: none;
+  }
+  .rightsurun {
+    display: none;
+  }
+  .footerustyaziurun {
+    display: none;
+  }
+  .cizimyazi1 {
+    opacity: 1;
+    top: 172vw;
+  }
+  .baslikpizza {
+    top: 45vw;
+    font-size: 7vw;
+    left: 17vw;
+  }
+  .baslikyazi {
+    display: none;
+  }
+  .pizzah1 {
+    top: 90vw;
+  }
+  .pizzah2 {
+    display: none;
+  }
+  .pizzah3 {
+    display: none;
+  }
+  .pizzah4 {
+    display: none;
+  }
+  .pizzaurun1 {
+    display: none;
+  }
+  .pizzaul1 {
+    display: none;
+  }
+  .pizzaul2 {
+    font-size: 2.4vw;
+    top: 97vw;
+    left: 61vw;
+  }
+  .pizzaisim1 {
+    position: absolute;
+    top: 101vw;
+    left: 21vw;
+    font-size: 4vw;
+    font-family: "Raleway";
+    font-weight: 900;
+  }
+  .pizzaurun2 {
+    display: none;
+  }
+  .pizzaul3 {
+    display: none;
+  }
+  .pizzaul4 {
+    font-size: 2.4vw;
+    top: 107.4vw;
+    left: 61vw;
+  }
+  .pizzaisim2 {
+    position: absolute;
+    top: 111vw;
+    left: 21vw;
+    font-size: 4vw;
+    font-family: "Raleway";
+    font-weight: 900;
+  }
+  .pizzaurun3 {
+    display: none;
+  }
+  .pizzaul5 {
+    display: none;
+  }
+  .pizzaul6 {
+    font-size: 2.4vw;
+    top: 118vw;
+    left: 61vw;
+  }
+  .despizzaurun3 {
+    display: none;
+  }
+  .pizzaisim3 {
+    position: absolute;
+    top: 121vw;
+    left: 21vw;
+    font-size: 4vw;
+    font-family: "Raleway";
+    font-weight: 900;
+  }
+  .pizzaurun4 {
+    display: none;
+  }
+  .pizzaul7 {
+    display: none;
+  }
+  .pizzaul8 {
+    font-size: 2.4vw;
+    top: 130vw;
+    left: 61vw;
+  }
+  .pizzaisim4 {
+    position: absolute;
+    top: 131vw;
+    left: 21vw;
+    font-size: 4vw;
+    font-family: "Raleway";
+    font-weight: 900;
+  }
+  .pizzaurun5 {
+    display: none;
+  }
+  .pizzaul9 {
+    display: none;
+  }
+  .pizzaul10 {
+    font-size: 2.4vw;
+    top: 142vw;
+    left: 61vw;
+  }
+  .pizzaisim5 {
+    position: absolute;
+    top: 141vw;
+    left: 21vw;
+    font-size: 4vw;
+    font-family: "Raleway";
+    font-weight: 900;
+  }
+  .kampanyalarustbaslik {
+    top: 43vw;
+    background: #00000088;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+  }
+  .footerustyazikampanya {
+    display: none;
+  }
+  .rightskampanya {
+    display: none;
+  }
+  .rightsiletisim {
+    display: none;
+  }
+  .footerustyaziiletisim {
+    display: none;
+  }
+  .rightshakkimizda {
+    display: none;
+  }
+  .footerustyazihakkimizda {
+    display: none;
+  }
+  @keyframes soldangel1 {
+    from {
+      top: -20vw;
+    }
+    to {
+      top: 46.0625vw;
+    }
+  }
+  .sozlesmelogo1 {
+    top: 436vw;
+  }
+  #girdiler {
+    top: 14vw;
+    position: absolute;
+  }
+  .gonder {
+    top: 60vw;
+  }
+  .temizle {
+    top: 70vw;
+  }
+  .gonder1 {
+    top: 90vw;
+    left: 70vw;
+  }
+  .temizle1 {
+    top: 100vw;
+    left: 70vw;
+  }
+  textarea {
+    top: 44vw;
+    left: 47vw;
+  }
+  .tatliurun10 {
+    display: none;
+  }
+  .tatliurun9 {
+    display: none;
+  }
+  .tatliurun8 {
+    display: none;
+  }
+  .tatliurun7 {
+    display: none;
+  }
+  .tatliurun6 {
+    display: none;
+  }
+  .tatlih2 {
+    display: none;
+  }
+  .tatlih3 {
+    display: none;
+  }
+  .tatlih4 {
+    display: none;
+  }
+  .tatlih5 {
+    display: none;
+  }
+  .tatlifiyat1 {
+    top: 98.5vw;
+    left: 24vw;
+    font-size: 2.3vw;
+  }
+  .tatlifiyat2 {
+    top: 108.5vw;
+    left: 24vw;
+    font-size: 2.3vw;
+  }
+  .tatlifiyat3 {
+    top: 118.5vw;
+    left: 24vw;
+    font-size: 2.3vw;
+  }
+  .tatlifiyat4 {
+    top: 128.5vw;
+    left: 24vw;
+    font-size: 2.3vw;
+  }
+  .tatlifiyat5 {
+    top: 138.5vw;
+    left: 24vw;
+    font-size: 2.3vw;
+  }
+  .tatlifiyat6 {
+    top: 98.5vw;
+    left: 54vw;
+    font-size: 2.3vw;
+  }
+  .tatlifiyat7 {
+    top: 108.5vw;
+    left: 54vw;
+    font-size: 2.3vw;
+  }
+  .tatlifiyat8 {
+    top: 118.5vw;
+    left: 52vw;
+    font-size: 2.3vw;
+  }
+  .tatlifiyat9 {
+    top: 128.5vw;
+    left: 54vw;
+    font-size: 2.3vw;
+  }
+  .tatlifiyat10 {
+    top: 138.5vw;
+    left: 54vw;
+    font-size: 2.3vw;
+  }
+  .rightsindex {
+    display: none;
+  }
+  .footerustyaziindex {
+    display: none;
+  }
+  .dropdown:hover .dropdown-content {
+    display: none;
+  }
+  .tavuknavul ul li:hover .nava {
+    border-right: none;
+    border-left: none;
+  }
+  .fixer1 {
+    top: 52vw;
+  }
+  .fixer2 {
+    top: 47.4vw;
+  }
+  .fixer3 {
+    top: 61.4vw;
+  }
+}
+.rightsindex {
+  font-family: "Raleway";
+  font-size: 0.7vw;
+  font-weight: 900;
+  width: 100%;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 118vw;
+  z-index: 3;
+}
+.footerustyaziindex {
+  font-family: "Caveat";
+  font-size: 3.2vw;
+  width: 78vw;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 83vw;
+  left: 13vw;
+  z-index: 3;
+}
